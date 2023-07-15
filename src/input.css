@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+  font-family: 'b-mitra';
+  src: url(assets/font/b-mitra.ttf);
+}
+@font-face {
+  font-family: 'calibri';
+  src: url(assets/font/calibri.ttf);
+}
+@tailwind utilities;
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-c-gray-7;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-600;
+}
+.router-link-active{
+  @apply text-c-yellow font-bold;
+}
+@layer components {
+  .c{
+    direction: rtl;
+  }
+  .c-2{
+    word-spacing: .2075rem;
+  }
+  .c-3{
+    text-shadow: 0 0 0.25rem white;
+  }
+  .c-4{
+    writing-mode:vertical-lr
+  }
+  .c-5{
+    text-orientation:upright
+  }
+}
