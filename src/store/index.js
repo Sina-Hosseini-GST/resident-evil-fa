@@ -3913,6 +3913,82 @@ export default createStore({
               }
             ]
           },
+          {
+            "id": 4,
+            "src": require('../assets/img/re3/files/david-s-memo/david-s-memo.png'),
+            "source": "Evil Resource",
+            "source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!davids-memo",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/david-s-memo/map/david-s-memo-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/police-station/police-station-1f/dark-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "david-s-memo",
+            "title": "David's Memo",
+            "og_content":[
+              {
+                "para": "My sanity is at its end... I still can't believe this is happening. We lost another man yesterday. Meyer; one of our better marksmen. He saw me panic once we were overrun by the zombies, but he came back to save me.",
+                "dir": "left"
+              },
+              {
+                "para": "But when the time came to return the debt, I ran.",
+                "dir": "left"
+              },
+              {
+                "para": "I can still hear him calling out my name. I can still hear the screams coming from behind. The sound of his flesh being stripped from its bones. I was afraid... terrified...",
+                "dir": "left"
+              },
+              {
+                "para": "It's the 27th. The fight to stay alive continues. I took out several zombies who managed to break through the barricades. Now I'm cutting through the chill with whisky, unloading my Mossberg on anything undead. That shotgun's become a close friend of mine. I've blasted many a zombie into fertilizer with it.",
+                "dir": "left"
+              },
+              {
+                "para": "We've lost 13 men as of yesterday. In 3 hours, we'll bicker over trivial things in the meeting room. It's a total waste of time. When I finish this bottle, my old friend Mossberg will be turning one last body into fertilizer.",
+                "dir": "left"
+              },
+              {
+                "para": "Peace at last.",
+                "dir": "left"
+              },
+              {
+                "para": "I can hardly wait...",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "دیگه سلامت روانی برام نمونده... هنوزم نمی‌تونم باورش کنم. دیروز یه نفر دیگه رو از دست دادیم؛ مِیِر، از بهترین تیراندازامون رو. موقعِ تاخت‌وتاز زامبی‌ها، اون منو تو وحشت دید و اومد تا نجاتم بده.",
+                "dir": "right"
+              },
+              {
+                "para": "اما زمان جبرانش که رسید، جا زدم.",
+                "dir": "right"
+              },
+              {
+                "para": "هنوزم می‌تونم صداشو بشنوم که اسمم رو داره فریاد می‌زنه. هنوزم می‌تونم صدای جیغ‌های پشت سرم رو بشنوم. صدای کنده‌شدن پوستش از استخونش رو... ترسیده بودم... وحشت ورم داشته بود...",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              }
+            ]
+          }
         ]
       }
     ],
