@@ -3988,6 +3988,74 @@ export default createStore({
                 "dir": "right"
               }
             ]
+          },
+          {
+            "id": 5,
+            "src": require('../assets/img/re3/files/fax-from-kendo-gun-shop/fax-from-kendo-gun-shop.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!fax-from-kendo-gun-shop",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/fax-from-kendo-gun-shop/map/fax-from-kendo-gun-shop-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/police-station/police-station-2f/stars-office",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "fax-from-kendo-gun-shop",
+            "title": "Fax From Kendo Gun Shop",
+            "og_content":[
+              {
+                "para": "To the boys of S.T.A.R.S.,",
+                "dir": "left"
+              },
+              {
+                "para": "I have some good news for you from my brother Joe. He has finalized the new hand-gun for official use. It's the M92F S.T.A.R.S. Special, but he calls it the \"Samurai Edge.\" It's the most balanced of the Kendo custom guns. Joe said if you miss the targets with this, you should carry a teething ring instead of a gun in your holster.",
+                "dir": "left"
+              },
+              {
+                "para": "The goods will be delivered along with their proper documentation. I'm sure you'll be surprised when you see what kind of excellent parts are used for the M92F. I know that you'll want to thank the good people who developed it.",
+                "dir": "left"
+              },
+              {
+                "para": "Sincerely,",
+                "dir": "left"
+              },
+              {
+                "para": "Robert Kendo",
+                "dir": "left"
+              },
+              {
+                "para": "Kendo Gun Shop",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "به بر و بچ استارز",
+                "dir": "right"
+              },
+              {
+                "para": "خبرای خوبی از داداشم، جو، براتون دارم. اون سلاحِ دستی جدیدی رو برای استفاده‌ی رسمی نهایی‌سازی کرده؛ اِم۹۲اِف استارز، که بهش می‌گه «تیغه‌ی سامورایی». بین سلاح‌های شخصی‌سازی‌شده‌ی کِندو هم، بالانس‌ترینه. جو می‌گه اگه هدف رو با این سلاح گم کردین، بهتره به جای تفنگ تو غلاف‌تون، دندون‌گیرِ نوزاد همراه داشته باشین.",
+                "dir": "right"
+              },
+              {
+                "para": "کالاها، به همراه مستنداتِ مخصوص‌شون، از راه می‌رسن. و من مطمئنم وقتی ببینین از چه قطعات خفنی توی اِم۹۲اِف استفاده شده، شگفت‌زده می‌شین. می‌دونم که می‌خواین از آدمای کاربلدی که ساختنش، تشکر کنین.",
+                "dir": "right"
+              },
+              {
+                "para": "با احترام،",
+                "dir": "right"
+              },
+              {
+                "para": "رابرت کِندو",
+                "dir": "right"
+              },
+              {
+                "para": "اسلحه‌فروشی کِندو",
+                "dir": "right"
+              }
+            ]
           }
         ]
       }
