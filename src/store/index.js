@@ -12,8 +12,8 @@ export default createStore({
           {
             "id": 1,
             "src": require('../assets/img/re1/files/botany-book/botany-book.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!botany-book",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!botany-book",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -72,8 +72,8 @@ export default createStore({
           {
             "id": 2,
             "src": require('../assets/img/re1/files/keeper-s-diary/keeper-s-diary.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!keepers-diary",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!keepers-diary",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -412,8 +412,8 @@ export default createStore({
           {
             "id": 3,
             "src": require('../assets/img/re1/files/researcher-s-will/researcher-s-will.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!researchers-will",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!researchers-will",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -584,8 +584,8 @@ export default createStore({
           {
             "id": 4,
             "src": require('../assets/img/re1/files/orders/orders.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!orders",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!orders",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -668,8 +668,8 @@ export default createStore({
           {
             "id": 5,
             "src": require('../assets/img/re1/files/plant-42-report/plant-42-report.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!plant-42-report",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!plant-42-report",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -784,8 +784,8 @@ export default createStore({
           {
             "id": 6,
             "src": require('../assets/img/re1/files/fax/fax.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!fax",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!fax",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -908,8 +908,8 @@ export default createStore({
           {
             "id": 7,
             "src": require('../assets/img/re1/files/scrapbook/scrapbook.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!scrapbook",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!scrapbook",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -1056,8 +1056,8 @@ export default createStore({
           {
             "id": 8,
             "src": require('../assets/img/re1/files/security-system/security-system.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!security-system",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!security-system",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -1284,8 +1284,8 @@ export default createStore({
           {
             "id": 9,
             "src": require('../assets/img/re1/files/researcher-s-letter/researcher-s-letter.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!researchers-letter",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!researchers-letter",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -1400,8 +1400,8 @@ export default createStore({
           {
             "id": 10,
             "src": require('../assets/img/re1/files/v-jolt-report/v-jolt-report.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!v-jolt-report",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!v-jolt-report",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -1508,8 +1508,8 @@ export default createStore({
           {
             "id": 11,
             "src": require('../assets/img/re1/files/barry-s-picture/barry-s-picture.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!barrys-picture",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!barrys-picture",
             "location": [
               {
                 "txt": "Location (Jill)",
@@ -1576,8 +1576,8 @@ export default createStore({
           {
             "id": 12,
             "src": require('../assets/img/re1/files/pass-code-01/pass-code-01.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!pass-code-01",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!pass-code-01",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -1612,8 +1612,8 @@ export default createStore({
           {
             "id": 13,
             "src": require('../assets/img/re1/files/pass-code-02/pass-code-02.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!pass-code-02",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!pass-code-02",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -1656,8 +1656,8 @@ export default createStore({
           {
             "id": 14,
             "src": require('../assets/img/re1/files/pass-code-03/pass-code-03.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil/files#!pass-code-03",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil/files#!pass-code-03",
             "location": [
               {
                 "txt": "Location (Chris, Jill)",
@@ -1700,8 +1700,8 @@ export default createStore({
           {
             "id": 1,
             "src": require('../assets/img/re2/files/police-memorandum/police-memorandum.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!police-memorandum",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!police-memorandum",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -1763,8 +1763,8 @@ export default createStore({
           {
             "id": 2,
             "src": require('../assets/img/re2/files/chris-s-diary/chris-s-diary.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!chriss-diary",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!chriss-diary",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -1874,8 +1874,8 @@ export default createStore({
           {
             "id": 3,
             "src": require('../assets/img/re2/files/mail-to-chris/mail-to-chris.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!mail-to-chris",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!mail-to-chris",
             "location": [
               {
                 "txt": "Location (Claire A+B)",
@@ -2009,8 +2009,8 @@ export default createStore({
           {
             "id": 4,
             "src": require('../assets/img/re2/files/operation-report-1/operation-report-1.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!operation-report-1",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!operation-report-1",
             "location": [
               {
                 "txt": "Location (Leon A, Claire A)",
@@ -2177,8 +2177,8 @@ export default createStore({
           {
             "id": 5,
             "src": require('../assets/img/re2/files/memo-to-leon/memo-to-leon.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!memo-to-leon",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!memo-to-leon",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -2240,8 +2240,8 @@ export default createStore({
           {
             "id": 6,
             "src": require('../assets/img/re2/files/operation-report-2/operation-report-2.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!operation-report-2",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!operation-report-2",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -2327,8 +2327,8 @@ export default createStore({
           {
             "id": 7,
             "src": require('../assets/img/re2/files/chief-s-diary/chief-s-diary.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!chiefs-diary",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!chiefs-diary",
             "location": [
               {
                 "txt": "Location (Leon B, Claire A+B)",
@@ -2438,8 +2438,8 @@ export default createStore({
           {
             "id": 8,
             "src": require('../assets/img/re2/files/film-a/film-a.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!film-a",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!film-a",
             "location": [
               {
                 "txt": "Location (Leon A, Claire A)",
@@ -2477,8 +2477,8 @@ export default createStore({
           {
             "id": 9,
             "src": require('../assets/img/re2/files/film-b/film-b.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!film-b",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!film-b",
             "location": [
               {
                 "txt": "Location (Leon A, Claire A)",
@@ -2549,8 +2549,8 @@ export default createStore({
           {
             "id": 10,
             "src": require('../assets/img/re2/files/film-c/film-c.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!film-c",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!film-c",
             "location": [
               {
                 "txt": "Location (Leon B, Claire B)",
@@ -2596,8 +2596,8 @@ export default createStore({
           {
             "id": 11,
             "src": require('../assets/img/re2/files/patrol-report/patrol-report.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!patrol-report",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!patrol-report",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -2699,8 +2699,8 @@ export default createStore({
           {
             "id": 12,
             "src": require('../assets/img/re2/files/secretary-s-diary-a/secretary-s-diary-a.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!secretarys-diary-a",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!secretarys-diary-a",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -2778,8 +2778,8 @@ export default createStore({
           {
             "id": 13,
             "src": require('../assets/img/re2/files/secretary-s-diary-b/secretary-s-diary-b.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!secretarys-diary-b",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!secretarys-diary-b",
             "location": [
               {
                 "txt": "Location (Leon B, Claire A+B)",
@@ -2841,8 +2841,8 @@ export default createStore({
           {
             "id": 14,
             "src": require('../assets/img/re2/files/watchman-s-diary/watchman-s-diary.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!watchmans-diary",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!watchmans-diary",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -2992,8 +2992,8 @@ export default createStore({
           {
             "id": 15,
             "src": require('../assets/img/re2/files/mail-to-the-chief/mail-to-the-chief.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!mail-to-the-chief",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!mail-to-the-chief",
             "location": [
               {
                 "txt": "Location (Leon A+B)",
@@ -3160,8 +3160,8 @@ export default createStore({
           {
             "id": 16,
             "src": require('../assets/img/re2/files/sewer-manager-fax/sewer-manager-fax.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!sewer-manager-fax",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!sewer-manager-fax",
             "location": [
               {
                 "txt": "Location (Leon A+B)",
@@ -3261,8 +3261,8 @@ export default createStore({
           {
             "id": 17,
             "src": require('../assets/img/re2/files/sewer-manager-diary/sewer-manager-diary.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!sewer-manager-diary",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!sewer-manager-diary",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -3412,8 +3412,8 @@ export default createStore({
           {
             "id": 18,
             "src": require('../assets/img/re2/files/lab-security-manual/lab-security-manual.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!lab-security-manual",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!lab-security-manual",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -3491,8 +3491,8 @@ export default createStore({
           {
             "id": 19,
             "src": require('../assets/img/re2/files/p-epsilon-gas-report/p-epsilon-gas-report.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!p-epsilon-report",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!p-epsilon-report",
             "location": [
               {
                 "txt": "Location (Leon B, Claire B)",
@@ -3570,8 +3570,8 @@ export default createStore({
           {
             "id": 20,
             "src": require('../assets/img/re2/files/user-registration/user-registration.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!user-registration",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!user-registration",
             "location": [
               {
                 "txt": "Location (Leon A+B, Claire A+B)",
@@ -3625,8 +3625,8 @@ export default createStore({
           {
             "id": 21,
             "src": require('../assets/img/re2/files/vaccine-synthesis/vaccine-synthesis.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-2/files#!vaccine-synthesis",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-2/files#!vaccine-synthesis",
             "location": [
               {
                 "txt": "Location (Claire A)",
@@ -3712,8 +3712,8 @@ export default createStore({
           {
             "id": 1,
             "src": require('../assets/img/re3/files/clock-tower-postcard/clock-tower-postcard.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!clock-tower-postcard",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!clock-tower-postcard",
             "location": [
               {
                 "txt": "Location",
@@ -3764,8 +3764,8 @@ export default createStore({
           {
             "id": 2,
             "src": require('../assets/img/re3/files/photo-a/photo-a.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-a",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-a",
             "location": [
               {
                 "txt": "Location",
@@ -3800,8 +3800,8 @@ export default createStore({
           {
             "id": 3,
             "src": require('../assets/img/re3/files/marvin-s-report/marvin-s-report.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!marvins-report",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!marvins-report",
             "location": [
               {
                 "txt": "Location",
@@ -3916,8 +3916,8 @@ export default createStore({
           {
             "id": 4,
             "src": require('../assets/img/re3/files/david-s-memo/david-s-memo.png'),
-            "source": "Evil Resource",
-            "source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!davids-memo",
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!davids-memo",
             "location": [
               {
                 "txt": "Location",

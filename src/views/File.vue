@@ -4,7 +4,7 @@
       <div class="border-2 border-c-gray-4">
         <img :src="file.src" :alt="`${file.title} file image`" class="w-c-2 mx-auto">
         <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
-          Credits Goes to <a target="_blank" :href="file.source_link" class="underline hover:font-bold text-orange-400"> {{ file.source }} </a>
+          Credits Goes to <a target="_blank" :href="file.src_source_link" class="underline hover:font-bold text-orange-400"> {{ file.src_source }} </a>
         </div>
       </div>
       <div class="text-center bg-white sticky bottom-0 text-black -mx-4">
