@@ -34,9 +34,12 @@ module.exports = {
           'c-gray-5': '#1b1b1b',
           'c-gray-6': '#202020',
           'c-gray-7': '#404040',
+          'c-gray-8': '#0d0d0d',
           'c-blue': 'blue',
+          'c-blue-2': 'aqua',
+          'c-blue-3': 'dodgerblue',
           'c-purple': 'magenta',
-          'c-purple-2': 'darkviolet'
+          'c-purple-2': 'darkviolet',
         },
         spacing: {
           'c': '40rem',

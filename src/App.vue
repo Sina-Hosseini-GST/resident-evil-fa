@@ -19,7 +19,7 @@
   <main class="max-w-c mx-auto">
     <section v-if="!this.$store.state.isGameSelected" class="p-4">
       <p class="text-justify text-pink-100">
-        Hi, I'm <a class="underline underline-offset-2 hover:font-bold text-white" href="mailto:sina.hosseini.gst@gmail.com">Sina</a>, and this is my independent project, to translate the whole in-game documents of each <span class="italic">Resident Evil</span>! Go select your desired title and have fun!
+        Hi, I'm <a class="underline underline-offset-2 hover:font-bold text-white" href="mailto:sina.hosseini.gst@gmail.com">Sina</a>, and this is my independent project, to translate the whole in-game documents of each <span class="italic">Resident Evil</span> into Persian! Go select your desired title and explore the story!
       </p>
       <div class="text-c-red-2 font-bold leading-c-3 flex flex-col items-center mt-8 mb-12">
         <div class="flex gap-2">
@@ -125,8 +125,11 @@
           <span class="w-2">|</span>
         </div>
       </div>
-      <p class="text-justify text-red-100 italic mb-2">
+      <p class="text-justify text-red-100 italic">
         This website is constantly being updated, and this means that every time you enter, you're likely to see more CONTENT! So, stay tuned!
+      </p>
+      <p class="my-2 py-2 text-white border-y-8 border-double border-c-gray-8">
+        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">Mercenary's Diary</span> Added - <span class="text-c-blue-2">RE3</span>
       </p>
       <p class="text-justify text-orange-300 uppercase">
         Many thanks to <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-400" href="https://www.evilresource.com/">Evil Resource</a>, and <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-400" href="https://residentevil.fandom.com/wiki/Resident_Evil_Wiki">Resident Evil Wiki</a>, for helping me shape the project!

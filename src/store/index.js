@@ -4056,6 +4056,122 @@ export default createStore({
                 "dir": "right"
               }
             ]
+          },
+          {
+            "id": 6,
+            "src": require('../assets/img/re3/files/mercenary-s-diary/mercenary-s-diary.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!mercenarys-diary",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/mercenary-s-diary/map/mercenary-s-diary-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/zigzag-alley",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "mercenary-s-diary",
+            "title": "Mercenary's Diary",
+            "og_content":[
+              {
+                "para": "September 1st",
+                "dir": "left"
+              },
+              {
+                "para": "Following six months of intensive training, my body's edge had returned.",
+                "dir": "left"
+              },
+              {
+                "para": "I was a good soldier, but they ordered my execution with no reason given. I was tortured and forced to give a false confession.",
+                "dir": "left"
+              },
+              {
+                "para": "But on the morning of my execution, a miracle happened. The company had helped me out, giving me a second lease on life.",
+                "dir": "left"
+              },
+              {
+                "para": "September 15th",
+                "dir": "left"
+              },
+              {
+                "para": "I ended my vacation short and returned to the HQ office. It looks like my UBCS unit's been called into action.",
+                "dir": "left"
+              },
+              {
+                "para": "Umbrella maintains its own paramilitary unit to counter corporate terrorism and V.I.P. abduction. In addition, they have nightmen who specialize in handling problems cause by illegal products.",
+                "dir": "left"
+              },
+              {
+                "para": "I'm currently a member of the latter.",
+                "dir": "left"
+              },
+              {
+                "para": "September 28th",
+                "dir": "left"
+              },
+              {
+                "para": "Dawn's here, but we're still slogging through this nightmare. There are no provisions of any kind here. The undead walk the streets feeding upon the flesh of the living.",
+                "dir": "left"
+              },
+              {
+                "para": "Given the choice again, I would rather have been executed. Death row was a heavenly asylum compared to this place.",
+                "dir": "left"
+              },
+              {
+                "para": "I've chosen to pull the trigger myself, in the hope that my dead body won't come back to life.",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "۱ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "بعدِ شیش ماه تمرین فشرده، همون گولاخ سابق شدم.",
+                "dir": "right"
+              },
+              {
+                "para": "با اینکه سرباز خوبی بودم، ولی حکم اعدامم رو بدون هیچ دلیلی صادر کردن. من مورد شکنجه قرار گرفتم و به اعتراف اجباری مجبور شدم.",
+                "dir": "right"
+              },
+              {
+                "para": "ولی درست صبحِ روز اعدام بود که یه معجزه اتفاق افتاد؛ کمپانی بهم دستی رسوند و شانس زندگی بهم داد.",
+                "dir": "right"
+              },
+              {
+                "para": "۱۵ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "به سرعت به تعطیلاتم پایان دادم و برگشتم سمت دفترِ مقر. گویا که نیروهای یوبی‌سی‌اِس رو اعزام کردن.",
+                "dir": "right"
+              },
+              {
+                "para": "آمبرلا واحد شبه‌نظامی‌شو برای مقابله با ربودن افراد به شدت مهم و تروریسمِ سازمانی نگه داشته. به علاوه اینکه کلی آدمِ شب‌کار تو مشتشه که تو مدیریت مشکلات ناشی از محصولات غیر قانونی تخصص دارن.",
+                "dir": "right"
+              },
+              {
+                "para": "و من در حال حاضر عضو این آخری‌ام.",
+                "dir": "right"
+              },
+              {
+                "para": "۲۸ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "سپیده دمه و هنوزم داریم با این کابوس، دست‌وپنجه نرم می‌کنیم. هیچ مدل تمهیداتی هم به چشم نمی‌خوره. مرده‌های متحرک ولی، تو خیابون پرسه می‌زنن و از گوشتِ زنده‌ها تغذیه می‌کنن.",
+                "dir": "right"
+              },
+              {
+                "para": "اگه می‌شد که حق انتخاب مجددی داشته باشم، ترجیح می‌دادم تا اعدام بشم. بندِ محکومای به مرگ، در مقایسه با اینجا، یه آسایشگاه بهشتی بود.",
+                "dir": "right"
+              },
+              {
+                "para": "انتخاب کردم که خودم ماشه رو بکشم، به این امید که جسدم قرار نیست به زندگی برگرده.",
+                "dir": "right"
+              }
+            ]
           }
         ]
       }
