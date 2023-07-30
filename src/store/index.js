@@ -4264,6 +4264,70 @@ export default createStore({
                 "dir": "right"
               }
             ]
+          },
+          {
+            "id": 8,
+            "src": require('../assets/img/re3/files/photo-b/photo-b.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-b",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/photo-b/map/photo-b-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/press-office-lobby",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "photo-b",
+            "title": "Photo B",
+            "og_content":[
+              {
+                "para": "A close-up shot of a zombie.",
+                "dir": "left"
+              },
+              {
+                "para": "It says, \"SCOOP!\" on the backside.",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "نمای نزدیک از یه زامبی.",
+                "dir": "right"
+              },
+              {
+                "para": "پشتش نوشته «خبرِ دسته اول».",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "src": require('../assets/img/re3/files/photo-c/photo-c.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-c",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/photo-c/map/photo-c-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/press-office",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "photo-c",
+            "title": "Photo C",
+            "og_content":[
+              {
+                "para": "The police have been destroyed.",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "نیروهای پلیس به فنا رفتن.",
+                "dir": "right"
+              }
+            ]
           }
         ]
       }

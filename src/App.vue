@@ -129,7 +129,7 @@
         This website is constantly being updated, and this means that every time you enter, you're likely to see more CONTENT! So, stay tuned!
       </p>
       <p class="my-2 py-2 text-white border-y-8 border-double border-c-gray-8">
-        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">City Guide</span> Added - <span class="text-c-blue-2">RE3</span>
+        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">Photo C</span> Added - <span class="text-c-blue-2">RE3</span>
       </p>
       <p class="text-justify text-orange-300 uppercase">
         Many thanks to <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-400" href="https://www.evilresource.com/">Evil Resource</a>, and <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-400" href="https://residentevil.fandom.com/wiki/Resident_Evil_Wiki">Resident Evil Wiki</a>, for helping me shape the project!
