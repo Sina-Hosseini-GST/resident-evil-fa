@@ -3872,7 +3872,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "گزارش‌هایی مبنی بر سرقت، توی ساختمون درون‌شهری، اونم قبل سحر، به گوش می‌رسه. جواهری هم که ساعت رو، کنار درِ ورودی، مزین کرده بود، نابود می‌شه می‌ره. دوتا از این جواهر که روی این ساعت نصب می‌شدن الآن گم‌ان.",
+                "para": "گزارش‌هایی مبنی بر سرقت، توی ساختمون شهرداری، اونم قبل سحر، به گوش می‌رسه. جواهری هم که ساعت رو، کنار درِ ورودی، مزین کرده بود، نابود می‌شه می‌ره. دوتا از این جواهر که روی این ساعت نصب می‌شدن الآن گم‌ان.",
                 "dir": "right"
               },
               {
@@ -4169,6 +4169,98 @@ export default createStore({
               },
               {
                 "para": "انتخاب کردم که خودم ماشه رو بکشم، به این امید که جسدم قرار نیست به زندگی برگرده.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "src": require('../assets/img/re3/files/city-guide/city-guide.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!city-guide",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/city-guide/map/city-guide-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/restaurant",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "city-guide",
+            "title": "City Guide",
+            "og_content":[
+              {
+                "para": "City Guide",
+                "dir": "left"
+              },
+              {
+                "para": "The Tracks of Our City",
+                "dir": "left"
+              },
+              {
+                "para": "Dear citizens,",
+                "dir": "left"
+              },
+              {
+                "para": "Thanks to kind and generous people of Umbrella Inc., this is a peaceful and friendly city. The vast donations from Umbrella Inc., have been used for welfare work, the construction of public utilities, and to help maintain public peace.",
+                "dir": "left"
+              },
+              {
+                "para": "In 1992, it was my fifth year as mayor of our beautiful city. It was then that through many donations and hard work our city was able to rebuild the municipal building, create a state of the art hospital.",
+                "dir": "left"
+              },
+              {
+                "para": "In honor of these fine accomplishments, I was awarded with a grand statue that same year. The statue rests in the municipal building.",
+                "dir": "left"
+              },
+              {
+                "para": "I came to this city as an engineer more than 35 years ago. I made contributions to the electric systems, and to the installation of the cable car. I pledge to follow the tradition of this fine city and will devote my life to its prosperity.",
+                "dir": "left"
+              },
+              {
+                "para": "The mayor of the city",
+                "dir": "left"
+              },
+              {
+                "para": "Michael Warren",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "راهنمای شهر",
+                "dir": "right"
+              },
+              {
+                "para": "مسیرای شهرمون",
+                "dir": "right"
+              },
+              {
+                "para": "شهروندای گرامی،",
+                "dir": "right"
+              },
+              {
+                "para": "به لطف آدمای سخاوت‌مند و مهربونِ آمبرلا، اینجا دیگه یه شهر بدون تنش و دوستانه‌ست. تسهیلات رفاهی، ساخت‌وسازِ شرکت‌های خدمات عمومی، و کمک تو حفظ امنیت عمومی، به واسطه‌ی حمایت‌های مالیِ گسترده از طرف آمبرلا رقم خورده.",
+                "dir": "right"
+              },
+              {
+                "para": "۱۹۹۲، پنجمین سالی به شمار می‌رفت که شهردار این شهر زیبا بودم. همون موقع هم بود که طی کلی حمایت مالی و تلاش و پشتکار، شهرمون تونست ساختمون شهرداری رو بازسازی کنه، و یه بیمارستان تمام‌امکانات ایجاد کنه.",
+                "dir": "right"
+              },
+              {
+                "para": "به افتخارِ این دستاوردای قابل توجه، ازم با یه مجسمه‌ی بزرگ، توی همون سال، تقدیر شد. و مجسمه هم، داخل همون ساختمون شهرداری می‌مونه.",
+                "dir": "right"
+              },
+              {
+                "para": "بیشتر از ۳۵ سال پیش بود که به عنوان یه مهندس، پا به این شهر گذاشتم. چه توی سیستم‌های الکترونیکی، و چه توی نصب کابل‌های ماشین هم، مشارکت داشتم. و عهد بستم تا به سنت‌های این شهر زیبا پایبند باشم و زندگی‌م رو وقفِ رونق‌اش بکنم.",
+                "dir": "right"
+              },
+              {
+                "para": "شهردارِ اینجا",
+                "dir": "right"
+              },
+              {
+                "para": "مایکل وارن",
                 "dir": "right"
               }
             ]
