@@ -256,7 +256,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "استیو که واقعا خوش‌شانس بود، هر چند که فکر کنم داشت تقلب می‌کرد.",
+                "para": "استیو که واقعا خوش‌شانس بود، هرچند که فکر کنم داشت تقلب می‌کرد.",
                 "dir": "right"
               },
               {
@@ -892,7 +892,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "شرایط، بحرانی‌ست. و عملیات ما در دستیابی به لاپوشانیِ این موقعیت نیز دشوار است، هر چند امیدواریم تا این مشکل به زودی حل شود.",
+                "para": "شرایط، بحرانی‌ست. و عملیات ما در دستیابی به لاپوشانیِ این موقعیت نیز دشوار است، هرچند امیدواریم تا این مشکل به زودی حل شود.",
                 "dir": "right"
               },
               {
@@ -2928,7 +2928,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "بالاخره این شانس رو پیدا کردم تا رنگ آسمون رو بعد مدت‌ها، برای اولین بار ببینم، هر چند که این قضیه حس‌وحالی برام ایجاد نکرد. وقتی هم که بالای برج ساعت بودم، بخاطر سرباززدن از وظایفم، توسط رئیس کل، توبیخ شدم.",
+                "para": "بالاخره این شانس رو پیدا کردم تا رنگ آسمون رو بعد مدت‌ها، برای اولین بار ببینم، هرچند که این قضیه حس‌وحالی برام ایجاد نکرد. وقتی هم که بالای برج ساعت بودم، بخاطر سرباززدن از وظایفم، توسط رئیس کل، توبیخ شدم.",
                 "dir": "right"
               },
               {
@@ -3705,8 +3705,8 @@ export default createStore({
       },
       {
         id: 3,
-        title: 'RE3',
-        url: 're3',
+        title: 'RE3N',
+        url: 're3n',
         files:
         [
           {
@@ -4252,7 +4252,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "بیشتر از ۳۵ سال پیش بود که به عنوان یه مهندس، پا به این شهر گذاشتم. چه توی سیستم‌های الکترونیکی، و چه توی نصب کابل‌های ماشین هم، مشارکت داشتم. و عهد بستم تا به سنت‌های این شهر زیبا پایبند باشم و زندگی‌م رو وقفِ رونق‌اش بکنم.",
+                "para": "بیشتر از ۳۵ سال پیش بود که به عنوان یه مهندس، پا به این شهر گذاشتم. و چه توی سیستم‌های الکترونیکی، و چه توی نصب کابل‌های ماشین هم، مشارکت داشتم. و اینکه عهد بستم تا به سنت‌های این شهر زیبا پایبند بمونم و زندگی‌م رو وقفِ رونق‌اش کنم.",
                 "dir": "right"
               },
               {
@@ -4296,7 +4296,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "پشتش نوشته «خبرِ دسته اول».",
+                "para": "پشتش نوشته «خبر دسته اول!».",
                 "dir": "right"
               }
             ]
@@ -4325,6 +4325,58 @@ export default createStore({
             "tr_content":[
               {
                 "para": "نیروهای پلیس به فنا رفتن.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "src": require('../assets/img/re3/files/reporter-s-memo/reporter-s-memo.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!reporters-memo",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/reporter-s-memo/map/reporter-s-memo-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/press-office",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "reporter-s-memo",
+            "title": "Reporter's Memo",
+            "og_content":[
+              {
+                "para": "At last I have found the evidence I need to prove that the \"cannibal disease\" is indeed happening in this city.",
+                "dir": "left"
+              },
+              {
+                "para": "One man actually ate people to death. He was like a savage animal tearing away a new flesh. It was completely disgusting. I have heard rumors that many people are also suffering from this disease now. However, the causes of the disease is not yet known. Is this another mystery of the present disease? I will have to check on it...",
+                "dir": "left"
+              },
+              {
+                "para": "They have placed Raccoon City under martial law because of the cannibal disease. I have lost contact with the media outside of the city, but I won't give up. As a journalist, I won't keep my eyes shut and walk away. I have a duty to the people and my profession. I don't think the disease has spread nationwide yet. I believe that this city holds the key to its creation and cure. In fact, I'm sure of it.",
+                "dir": "left"
+              },
+              {
+                "para": "The military has setup blockades around the city to keep people from escaping and spreading the disease. Most of the citizens have either died or have come in contact with the disease. I know that it is the right decision to quarantine the city, but I can't help but pity myself. If I am infected or eaten, it doesn't matter. My fate is already sealed. All I have left is my journalism. I won't give up until I solve the mystery of this deadly disease. I have just discovered that the disease is not spread through the air, but by some other means.",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "هر چی نباشه شواهدی که نیاز داشتم، دستم رسیده و این نشون می‌ده که «بیماریِ آدم‌خواری» راستی‌راستی تو شهر در جریانه.",
+                "dir": "right"
+              },
+              {
+                "para": "حتی یکی‌شون طرفو تا سر حد مرگ می‌خوره. عین یه حیوون درنده که سر از یه بدن جدید درمیاره. همه چیش هم چندش‌آور بود. طبق شایعاتی که به گوشمم خورده، این روزا آدمای زیادی از این بیماری رنج می‌برن. هرچند، علت این بیماری هنوز ناشناخته‌ست. آیا معمای دیگه‌ای در رابطه با این بیماری وجود داره؟ من یکی که باید بزنم تو کارش...",
+                "dir": "right"
+              },
+              {
+                "para": "اونا بخاطر بیماری آدم‌خواری، توی راکون، حکومت نظامی راه می‌ندازن. و منم ارتباطم رو با رسانه‌های خارج از شهر از دست می‌دم، اما ول‌کُن‌اش نمی‌شم. به عنوان یه رزونامه‌نگار قرار نیست چشام رو، رو به همه چی ببندم و بیخیالِ قضیه بشم. چه برای حرفه‌م، و چه برای آدما، این وظیفه روی دوش منه. اما فکر نمی‌کنم که تا به الآن، این بیماری تو کل کشور شیوع پیدا کرده باشه. و مطمئنم که تیکه‌های گم‌شده‌ی این پازل، که شامل ریشه و درمان بیماری‌ـه، تو دل همین شهره. در واقع که به این قضیه حتم دارم.",
+                "dir": "right"
+              },
+              {
+                "para": "ارتش کل شهرو بسته، تا جلوی مردم رو از فرار و شیوع این بیماری بگیره. عمده‌ی شهروندا هم یا جون‌شون رو از دست دادن یا در معرض این بیماری قرار گرفتن. می‌دونم که قرنطینه‌کردن این شهر، تصمیم درستی‌ـه، اما برای خودم کاری جز ابراز تاسف نمی‌تونم انجام بدم. اینکه آلوده بشم یا بخورنم، مهم نیست. آینده‌ی من مشخصه. تمام چیزی هم که برام مونده، روزنامه‌نگاری‌ـه. تا وقتی هم که معمای این بیماریِ کشنده رو حل نکنم، دست نمی‌کشم. تازگی ولی به این پی بردم که این بیماری از طریق هوا قابل انتقال نیست، چرا که روش دیگه‌ای رو در پیش می‌گیره.",
                 "dir": "right"
               }
             ]
