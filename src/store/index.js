@@ -3788,7 +3788,7 @@ export default createStore({
             ],
             "tr_content":[
               {
-                "para": "ماموران پلیس، پیش می‌تازند.",
+                "para": "مامورای پلیس، پیش می‌تازن.",
                 "dir": "right"
               },
               {
@@ -4377,6 +4377,50 @@ export default createStore({
               },
               {
                 "para": "ارتش کل شهرو بسته، تا جلوی مردم رو از فرار و شیوع این بیماری بگیره. عمده‌ی شهروندا هم یا جون‌شون رو از دست دادن یا در معرض این بیماری قرار گرفتن. می‌دونم که قرنطینه‌کردن این شهر، تصمیم درستی‌ـه، اما برای خودم کاری جز ابراز تاسف نمی‌تونم انجام بدم. اینکه آلوده بشم یا بخورنم، مهم نیست. آینده‌ی من مشخصه. تمام چیزی هم که برام مونده، روزنامه‌نگاری‌ـه. تا وقتی هم که معمای این بیماریِ کشنده رو حل نکنم، دست نمی‌کشم. تازگی ولی به این پی بردم که این بیماری از طریق هوا قابل انتقال نیست، چرا که روش دیگه‌ای رو در پیش می‌گیره.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "src": require('../assets/img/re3/files/mechanic-s-memo/mechanic-s-memo.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!mechanics-memo",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/mechanic-s-memo/map/mechanic-s-memo-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/cable-car-rear-carriage",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "mechanic-s-memo",
+            "title": "Mechanic's Memo",
+            "og_content":[
+              {
+                "para": "I know that you're intimidated by your new job Kevin, so let me tell you how to make sure that you and your trains get along just fine. You see, these carriages were made in 1968, and then imported from Europe. Sometimes they get rickety, but they still work because they are simple, stubborn, and strong. We can always depend on them. If they have a bad day and are malfunctioning, you'll need to take a good look at their circuits for any trouble. Once you discover what's wrong, you'll be able to fix it easily.",
+                "dir": "left"
+              },
+              {
+                "para": "I'm sure that you'll be able to avoid those nasty little malfunctions if you check the parts every day. These old trains will surely have problem if you don't remember to check them out. Just remember that if you need to replace anything, you have to choose a suitable part. When I say suitable, I mean that even if you can't find another original part, you'd better find something that works good enough. Even with regard to oil, you must always prepare good quality oil for these trains.",
+                "dir": "left"
+              },
+              {
+                "para": "Never forget Kevin that a man may betray others, but a machine won't.",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "متوجه‌ام که شغل جدیدت دستپاچه‌ت کرده کِوین، پس بذار بهت توضیح بدم که چطور می‌تونی از هماهنگیِ میون خودت و قطارایی که داری اطمینان حاصل کنی. می‌دونی که این کوپه‌ها ۱۹۶۸ ساخته می‌شن، و بعدش از اروپا واردشون می‌کنن. شاید زوارشون در بره ها، اما کارکردشون سر جاشه؛ چون که اونا ساده، سرسخت، و مستحکم‌ان. و ما همیشه می‌تونیم به اونا اطمینان کنیم. اگه هم روز بدشون از راه رسید و نقص فنی پیدا کردن، نیازه که به مدارهاشون یه نگاه دقیق بندازی و دنبال مشکل بگردی. و به محض اینکه فهمیدی چشه، می‌تونی به سادگی درستش کنی.",
+                "dir": "right"
+              },
+              {
+                "para": "حتم دارم اگه هر روز به این قطعات سر بزنی، می‌تونی از نقصای فنی کوچیک و اذیت‌کننده‌شون جلوگیری کنی. ولی کافیه یادت بره همین قطارای قدیمی رو بررسی کنی، تا مشکلات‌شون شروع بشه. فقط یادت باشه که اگه نیاز به جایگزینیِ چیزی داشتی، باید از قطعه‌ی مناسبش استفاده کنی. منظورمم از کلمه‌ی مناسب اینه که اگه نتونستی قطعه‌ی اصلی رو پیدا کنی، بهتره چیزی رو گیر بیاری که قد کافی درست کار کنه. در رابطه با سوخت هم، همیشه باید سوخت باکیفیتی برای این قطارا تهیه کنی.",
+                "dir": "right"
+              },
+              {
+                "para": "هیچ‌وقت هم فراموش نکن کِوین، که آدم ممکنه خائن از آب در بیاد، ولی ماشین اینطور نیست.",
                 "dir": "right"
               }
             ]
