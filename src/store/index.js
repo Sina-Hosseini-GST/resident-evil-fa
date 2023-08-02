@@ -340,7 +340,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "اگر چه حس‌وحال خوشی نداشتم، ولی گفتم برم پیش نانسی. این اولین مرخصی من تو این همه مدت بود، ولی محافظی که توی راه خروج بود، جلوم رو گرفت.",
+                "para": "اگرچه حس‌وحال خوشی نداشتم، ولی گفتم برم پیش نانسی. این اولین مرخصی من تو این همه مدت بود، ولی محافظی که توی راه خروج بود، جلوم رو گرفت.",
                 "dir": "right"
               },
               {
@@ -876,7 +876,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "نخست، اگر چه ارائه‌ی آماری دقیق از تعداد واقعیِ افراد دشوار است، اما اینطور که به نظر می‌رسد، بیش از نیمی از محققان، پس از آنکه در معرض «ویروس تی» قرار می‌گیرند، جان می‌بازند. از آنجا که عملا تمامی بازماندگان، علائمی مختص به «ویروس تی» نشان می‌دهند، میزان تلفات احتمالا رو به افزایش خواهد بود.",
+                "para": "نخست، اگرچه ارائه‌ی آماری دقیق از تعداد واقعیِ افراد دشوار است، اما اینطور که به نظر می‌رسد، بیش از نیمی از محققان، پس از آنکه در معرض «ویروس تی» قرار می‌گیرند، جان می‌بازند. از آنجا که عملا تمامی بازماندگان، علائمی مختص به «ویروس تی» نشان می‌دهند، میزان تلفات احتمالا رو به افزایش خواهد بود.",
                 "dir": "right"
               },
               {
@@ -4416,11 +4416,55 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "حتم دارم اگه هر روز به این قطعات سر بزنی، می‌تونی از نقصای فنی کوچیک و اذیت‌کننده‌شون جلوگیری کنی. ولی کافیه یادت بره همین قطارای قدیمی رو بررسی کنی، تا مشکلات‌شون شروع بشه. فقط یادت باشه که اگه نیاز به جایگزینیِ چیزی داشتی، باید از قطعه‌ی مناسبش استفاده کنی. منظورمم از کلمه‌ی مناسب اینه که اگه نتونستی قطعه‌ی اصلی رو پیدا کنی، بهتره چیزی رو گیر بیاری که قد کافی درست کار کنه. در رابطه با سوخت هم، همیشه باید سوخت باکیفیتی برای این قطارا تهیه کنی.",
+                "para": "حتم دارم اگه هر روز به این قطعات سر بزنی، می‌تونی از نقصای فنی کوچیک و اذیت‌کننده‌شون جلوگیری کنی. ولی کافیه یادت بره همین قطارای قدیمی رو بررسی کنی، تا مشکلات‌شون شروع بشه. فقط یادت باشه که اگه نیاز به جایگزینیِ چیزی داشتی، باید از قطعه‌ی مناسبش استفاده کنی. منظورمم از کلمه‌ی مناسب اینه که اگه نتونستی قطعه‌ی اصلی رو پیدا کنی، بهتره چیزی رو گیر بیاری که قد کافی درست کار کنه. در رابطه با سوخت هم، همیشه باید سوخت باکیفیتی رو برای این قطارا تهیه کنی.",
                 "dir": "right"
               },
               {
                 "para": "هیچ‌وقت هم فراموش نکن کِوین، که آدم ممکنه خائن از آب در بیاد، ولی ماشین اینطور نیست.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "src": require('../assets/img/re3/files/manager-s-report/manager-s-report.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!managers-report",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/manager-s-report/map/manager-s-report-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/sales-office",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "manager-s-report",
+            "title": "Manager's Report",
+            "og_content":[
+              {
+                "para": "Before you begin your new position, please allow me to give you some advice. Some of the medicines in the storage room are unstable and their quality will deteriorate under changing temperatures or humidity. Therefore, you must remember to keep the temperature the same in the storage room at all times. You should personally check it everyday. Although the computer checks it around the clock, a machine is not perfect. Try and remember that a machine is no more than a tool to be used by people.",
+                "dir": "left"
+              },
+              {
+                "para": "You must check all personnel coming and going to the storage room. Many dangerous drugs are stored there, if any of them are missing you have a serious problem on your hands. The door to the storage room is always locked, but when you let personnel into it, you will need to have them hand in their documents. And above all else, remember that if you find anything suspicious, contact your boss immediately.",
+                "dir": "left"
+              },
+              {
+                "para": "If you forget the password to lock the door, try and remember that it is a word that everyone is familiar with. Don't forget that once a new product is shipped, the password will be updated again. You can always enter the password from the terminal of the PC for administration.",
+                "dir": "left"
+              }
+            ],
+            "tr_content":[
+              {
+                "para": "قبل اینکه به سِمت جدیدت رو بیاری، لطفا اجازه بده تا راهنمایی‌ت کنم. یه سری از داروهای تو انبار، پایداری‌ای تو کارشون نیست و کیفیت‌شون، تحت تاثیر تغییر دما یا رطوبت، رو به وخامته. برای همینم ثابت‌نگه‌داشتنِ همیشگی دمای انبار رو نباید فراموش کنی. و لازمه که هر روز بهش سر بزنی. اگرچه که همیشه‌ی خدا کامپیوتر رصدش می‌کنه، ولی یه دستگاه همیشه بی‌نقص نیست. یادت باشه که ماشین، چیزی جز ابزارِ مورد استفاده‌ی مردم به حساب نمیاد.",
+                "dir": "right"
+              },
+              {
+                "para": "لازمه همه‌ی کارمندایی که به انبار وارد می‌شن یا ازش خروج می‌کنن رو مورد بررسی قرار بدی. از اونجایی هم که داروهای خطرناک زیادی اینجا نگه‌داری می‌شه، گم‌شدنِ هر کدوم‌شون می‌تونه برات دردسرآفرین باشه. درِ منتهی به انبار ولی همیشه قفله، مگه اینکه بذاری کارمندا بیان تو، تا نیاز به تحویل مدارک‌شون داشته باشی. و از همه مهم‌تر، اگه چیز مشکوکی به چشِت خورد، فورا با مافوقِت تماس بگیر.",
+                "dir": "right"
+              },
+              {
+                "para": "اگر رمز عبور رو قفل‌کردنِ در رو فراموش کردی، یادت باشه که این همون کلمه‌ای‌ـه که هر کسی باهاش آشنایی داره. از یاد هم نبر که وقتی یه محصول می‌ره پِی ارسال، این وسط رمز عبور مجددا به‌روز می‌شه. برای سازماندهی هم، از طریق ترمینالِ کامپیوتر می‌تونی رمز عبور رو وارد کنی.",
                 "dir": "right"
               }
             ]
