@@ -39,12 +39,14 @@
           English Localization
         </div>
       </div>
-      <div class="flex flex-col gap-4 text-white c font-c-2 leading-c-2 text-c-2 c-2 tracking-c-2 tr-content">
-        <p v-for="tr_content in file.tr_content" :key="tr_content" :style="{ 'text-align': tr_content.dir }">
-          {{ tr_content.para }}
-        </p>
-        <div class="text-center bg-white sticky bottom-0 text-black [text-shadow:0_0_black] -mx-4">
-          ترجمه‌ی فارسی
+      <div class="flex flex-col gap-4 tr-content">
+        <div class="flex flex-col gap-4 text-white c font-c-2 leading-c-2 text-c-2 c-2 tracking-c-2 fa-content">
+          <p v-for="tr_content in file.fa_content" :key="tr_content" :style="{ 'text-align': tr_content.dir }">
+            {{ tr_content.para }}
+          </p>
+          <div class="text-center bg-white sticky bottom-0 text-black [text-shadow:0_0_black] -mx-4">
+            ترجمه‌ی فارسی
+          </div>
         </div>
       </div>
     </div>

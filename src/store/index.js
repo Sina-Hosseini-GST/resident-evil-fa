@@ -46,7 +46,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "همانطور که می‌دانید، گیاهان زیادی با خواص دارویی وجود دارند. و از قدیم‌الایام نیز، بشر زخم‌ها و مریضی‌هایش را با بکارگیری گیاهان مختلف، درمان می‌کرده.",
                 "dir": "right"
@@ -246,7 +246,7 @@ export default createStore({
                 "dir": "center"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۹ مه ۱۹۹۸",
                 "dir": "right"
@@ -502,7 +502,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "آلمای عزیزم،",
                 "dir": "right"
@@ -630,7 +630,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "فوق سری، ۲۲ ژوئیه‌ی ۱۹۹۸، ساعت ۲:۱۳",
                 "dir": "right"
@@ -730,7 +730,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۴ روز از اون اتفاق می‌گذره و گیاه نقطه‌ی ۴۲، در کمال شگفتی، رشد سریعی رو رقم می‌زنه.",
                 "dir": "right"
@@ -850,7 +850,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "گیرنده:",
                 "dir": "right"
@@ -986,7 +986,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "راکون تایمز، ۲۷ مه ۱۹۹۸",
                 "dir": "right"
@@ -1174,7 +1174,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "- زیرزمین، سطح ۱ -",
                 "dir": "center"
@@ -1346,7 +1346,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۸ ژوئن ۱۹۹۸",
                 "dir": "right"
@@ -1458,7 +1458,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "همونطور که توی گزارش قبلی گفته بودم، یه سری خصیصه‌های مشترک توی سلول‌های گیاه مشاهده می‌شه، گیاهی که توسط ویروس تایرنت آلوده شده. ما حتی از طریق یه سری آزمایش، متوجه یه واقعیت جالب شدیم؛",
                 "dir": "right"
@@ -1546,7 +1546,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "این یه تصویر از بری‌ـه.",
                 "dir": "right"
@@ -1598,7 +1598,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "به گفته‌ی پروردگار «به خودم قسم»، «به خاطر آنکه تو به انجامش رساندی و تنها فرزندت را منع نکردی،",
                 "dir": "right"
@@ -1638,7 +1638,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "البته، تو را برکت می‌دهم، و اولادت را به ازدیادِ ستاره‌های آسمان، و شن‌های یک ساحل درمی‌آورم.",
                 "dir": "right"
@@ -1678,7 +1678,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "و به واسطه‌ی فرزندانت، تمامی مللِ روی زمین برکت داده می‌شوند، چرا که تو از من پیروی کردی.»",
                 "dir": "right"
@@ -1737,7 +1737,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۲۳ اوت ۱۹۹۸",
                 "dir": "right"
@@ -1824,7 +1824,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۸ اوت",
                 "dir": "right"
@@ -1947,7 +1947,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "آقای کریس ردفیلد",
                 "dir": "right"
@@ -2103,7 +2103,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "- گزارش عملیات -",
                 "dir": "center"
@@ -2214,7 +2214,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "به لیان اس. کندی",
                 "dir": "right"
@@ -2289,7 +2289,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "- گزارش عملیات -",
                 "dir": "center"
@@ -2388,7 +2388,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۲۳ سپتامبر",
                 "dir": "right"
@@ -2463,7 +2463,7 @@ export default createStore({
                 "dir": "center"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "رمز جی، آزمایش بر روی بدن انسان",
                 "dir": "center"
@@ -2523,7 +2523,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "تصویر از روبه‌روی خیاطی آروکاس‌ـه.",
                 "dir": "right"
@@ -2578,7 +2578,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "کد توسعه: تی-۱۰۳",
                 "dir": "right"
@@ -2653,7 +2653,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "- گزارش گشت -",
                 "dir": "center"
@@ -2744,7 +2744,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۶ آوریل",
                 "dir": "right"
@@ -2815,7 +2815,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۸ ژوئن",
                 "dir": "right"
@@ -2922,7 +2922,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۱۱ اوت",
                 "dir": "right"
@@ -3086,7 +3086,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "گیرنده: جناب برایان آیرونز، رئیس کل اداره‌ی پلیس شهر راکون",
                 "dir": "right"
@@ -3219,7 +3219,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "- فهرست تاسیسات اتصال -",
                 "dir": "center"
@@ -3342,7 +3342,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۲۸ ژوئن",
                 "dir": "right"
@@ -3457,7 +3457,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "راهنمای امنیتی آزمایشگاه",
                 "dir": "right"
@@ -3536,7 +3536,7 @@ export default createStore({
                 "dir": "right"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "- این گزارش نیازمند توجه فوری‌ـه -",
                 "dir": "right"
@@ -3603,7 +3603,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "ثبت موقت کاربر برای اتاق آزمایشگاهی فرهنگی.",
                 "dir": "right"
@@ -3670,7 +3670,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "هر موجودی که به ویروس جی آلوده بشه، داخل یه موجود زنده‌ی دیگه، از طریقِ لقاح یک جنین، تکثیر می‌شه.",
                 "dir": "right"
@@ -3742,7 +3742,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "این یه کارت‌پستال از برج ساعته.",
                 "dir": "right"
@@ -3786,7 +3786,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "مامورای پلیس، پیش می‌تازن.",
                 "dir": "right"
@@ -3862,7 +3862,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "«گزارش»",
                 "dir": "center"
@@ -3958,7 +3958,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "دیگه سلامت روانی برام نمونده... هنوزم نمی‌تونم باورش کنم. دیروز یه نفر دیگه رو از دست دادیم؛ مِیِر، از بهترین تیراندازامون رو. موقعِ تاخت‌وتاز زامبی‌ها، اون منو تو وحشت دید و اومد تا نجاتم بده.",
                 "dir": "right"
@@ -4030,7 +4030,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "به بر و بچ استارز",
                 "dir": "right"
@@ -4122,7 +4122,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "۱ سپتامبر",
                 "dir": "right"
@@ -4226,7 +4226,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "راهنمای شهر",
                 "dir": "right"
@@ -4290,7 +4290,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "نمای نزدیک از یه زامبی.",
                 "dir": "right"
@@ -4322,7 +4322,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "نیروهای پلیس به فنا رفتن.",
                 "dir": "right"
@@ -4362,7 +4362,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "هر چی نباشه شواهدی که نیاز داشتم، دستم رسیده و این نشون می‌ده که «بیماریِ آدم‌خواری» راستی‌راستی تو شهر در جریانه.",
                 "dir": "right"
@@ -4410,7 +4410,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "متوجه‌ام که شغل جدیدت دستپاچه‌ت کرده کِوین، پس بذار بهت توضیح بدم که چطور می‌تونی از هماهنگیِ میون خودت و قطارایی که داری اطمینان حاصل کنی. می‌دونی که این کوپه‌ها ۱۹۶۸ ساخته می‌شن، و بعدش از اروپا واردشون می‌کنن. شاید زوارشون در بره ها، اما کارکردشون سر جاشه؛ چون که اونا ساده، سرسخت، و مستحکم‌ان. و ما همیشه می‌تونیم به اونا اطمینان کنیم. اگه هم روز بدشون از راه رسید و نقص فنی پیدا کردن، نیازه که به مدارهاشون یه نگاه دقیق بندازی و دنبال مشکل بگردی. و به محض اینکه فهمیدی چشه، می‌تونی به سادگی درستش کنی.",
                 "dir": "right"
@@ -4454,7 +4454,7 @@ export default createStore({
                 "dir": "left"
               }
             ],
-            "tr_content":[
+            "fa_content":[
               {
                 "para": "قبل اینکه به سِمت جدیدت رو بیاری، لطفا اجازه بده تا راهنمایی‌ت کنم. یه سری از داروهای تو انبار، پایداری‌ای تو کارشون نیست و کیفیت‌شون، تحت تاثیر تغییر دما یا رطوبت، رو به وخامته. برای همینم ثابت‌نگه‌داشتنِ همیشگی دمای انبار رو نباید فراموش کنی. و لازمه که هر روز بهش سر بزنی. اگرچه که همیشه‌ی خدا کامپیوتر رصدش می‌کنه، ولی یه دستگاه همیشه بی‌نقص نیست. یادت باشه که ماشین، چیزی جز ابزارِ مورد استفاده‌ی مردم به حساب نمیاد.",
                 "dir": "right"
@@ -4465,6 +4465,126 @@ export default createStore({
               },
               {
                 "para": "اگر رمز عبور رو قفل‌کردنِ در رو فراموش کردی، یادت باشه که این همون کلمه‌ای‌ـه که هر کسی باهاش آشنایی داره. از یاد هم نبر که وقتی یه محصول می‌ره پِی ارسال، این وسط رمز عبور مجددا به‌روز می‌شه. برای سازماندهی هم، از طریق ترمینالِ کامپیوتر می‌تونی رمز عبور رو وارد کنی.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "src": require('../assets/img/re3/files/business-fax/business-fax.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!business-fax",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/business-fax/map/business-fax-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/sales-office",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "business-fax",
+            "title": "Business Fax",
+            "og_content":[
+              {
+                "para": "\"Order Sheet\"",
+                "dir": "center"
+              },
+              {
+                "para": "The liquid medicine named VT-J98 is suitable to cultivate the NE-T type virus. Therefore, we will need to order additional quantities of it.",
+                "dir": "left"
+              },
+              {
+                "para": "U.E. Sixth Laboratory",
+                "dir": "right"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "«فُرم سفارش»",
+                "dir": "center"
+              },
+              {
+                "para": "این مایع دارویی، تحت نامِ وی‌تی-جِی۹۸، برای پرورش ویروس اِن‌ای-تی مناسبه. و به تبع هم نیازه تا مقدار بیشتری ازش رو سفارش بدیم.",
+                "dir": "right"
+              },
+              {
+                "para": "آزمایشگاه شیشمِ یو.ای",
+                "dir": "left"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "src": require('../assets/img/re3/files/dario-s-memo/dario-s-memo.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!darios-memo",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3/files/dario-s-memo/map/dario-s-memo-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/warehouse",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "dario-s-memo",
+            "title": "Dario's Memo",
+            "og_content":[
+              {
+                "para": "I can't help but wonder if anyone will read these words, but writing them will help me maintain my sanity if nothing else.",
+                "dir": "left"
+              },
+              {
+                "para": "After I've become a meal for those undead monsters, will the G.I.s responsible for sealing off the town laugh upon discovering my corpse? So is this how it's supposed to end? I don't want to die. I'm just not ready...",
+                "dir": "left"
+              },
+              {
+                "para": "My wife, daughter, mother... My entire family has been killed. But none of that matters anymore. Right now, my life is the only important thing. That's all that matters.",
+                "dir": "left"
+              },
+              {
+                "para": "I never would have pictured my end to be like this. I had so much left to do. Rather than becoming a salesman, I should have tried my hand at being a novelist. It's what I've always wanted, but my mother would only tell me you have a long way to go.",
+                "dir": "left"
+              },
+              {
+                "para": "Why did I ever listen to her?",
+                "dir": "left"
+              },
+              {
+                "para": "But this looks like the end for the great Dario Rosso, novelist extraordinaire.",
+                "dir": "left"
+              },
+              {
+                "para": "Cut down before his prime...",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "بعید می‌دونم کسی این نوشته رو بخونه، اما حداقل با نوشتن‌اش، از حفظِ سلامتِ روانم گره باز می‌شه.",
+                "dir": "right"
+              },
+              {
+                "para": "وقتی به خوراک اون هیولاهای نامیرا تبدیل شم، آیا جی.آی.های مسئول ممنوع‌الورودکردن شهر، سر جسدم قهقهه می‌زنن؟ قراره همین‌جوری تموم شه؟ من که نمی‌خوام بمیرم. اصلا آماده‌ش هم نیستم...",
+                "dir": "right"
+              },
+              {
+                "para": "زنم، دخترم، مادرم... تموم خانواده‌م به قتل رسیدن. ولی دیگه هیچ‌کدوم‌شون اهمیتی ندارن. در حال حاضر، این زندگیِ منه که این وسط مهمه. این تنها چیزی‌ـه که اهمیت داره.",
+                "dir": "right"
+              },
+              {
+                "para": "هیچ‌وقت متصور نمی‌شدم چنین عاقبتی نصیبم شه. کلی هم کار برای انجام دارم. به جای تبدیل‌شدن به یه فروشنده، باید می‌زدم تو کار رُمان‌نویسی. این چیزی بود که همیشه می‌خواستم، ولی مادرم همیشه می‌گفت که تو راه درازی در پیش داری.",
+                "dir": "right"
+              },
+              {
+                "para": "اصلا چرا بهش گوش می‌دادم؟",
+                "dir": "right"
+              },
+              {
+                "para": "ولی گویا اینجا برای داریو روسوی بزرگ، رمان‌نویسِ خفن، آخر خطه.",
+                "dir": "right"
+              },
+              {
+                "para": "پرنده‌ای که قبلِ پَرکشیدن، خداحافظی می‌کنه...",
                 "dir": "right"
               }
             ]
