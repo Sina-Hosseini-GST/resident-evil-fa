@@ -3711,13 +3711,13 @@ export default createStore({
         [
           {
             "id": 1,
-            "src": require('../assets/img/re3/files/clock-tower-postcard/clock-tower-postcard.png'),
+            "src": require('../assets/img/re3n/files/clock-tower-postcard/clock-tower-postcard.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!clock-tower-postcard",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/clock-tower-postcard/map/clock-tower-postcard-map.png'),
+                "map": require('../assets/img/re3n/files/clock-tower-postcard/map/clock-tower-postcard-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/black-jacks-bar",
                 "map_source": "Evil Resource",
               }
@@ -3763,13 +3763,13 @@ export default createStore({
           },
           {
             "id": 2,
-            "src": require('../assets/img/re3/files/photo-a/photo-a.png'),
+            "src": require('../assets/img/re3n/files/photo-a/photo-a.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-a",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/photo-a/map/photo-a-map.png'),
+                "map": require('../assets/img/re3n/files/photo-a/map/photo-a-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/barricaded-back-passage",
                 "map_source": "Evil Resource",
               }
@@ -3799,13 +3799,13 @@ export default createStore({
           },
           {
             "id": 3,
-            "src": require('../assets/img/re3/files/marvin-s-report/marvin-s-report.png'),
+            "src": require('../assets/img/re3n/files/marvin-s-report/marvin-s-report.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!marvins-report",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/marvin-s-report/map/marvin-s-report-map.png'),
+                "map": require('../assets/img/re3n/files/marvin-s-report/map/marvin-s-report-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/police-station/police-station-1f/information-room",
                 "map_source": "Evil Resource",
               }
@@ -3915,13 +3915,13 @@ export default createStore({
           },
           {
             "id": 4,
-            "src": require('../assets/img/re3/files/david-s-memo/david-s-memo.png'),
+            "src": require('../assets/img/re3n/files/david-s-memo/david-s-memo.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!davids-memo",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/david-s-memo/map/david-s-memo-map.png'),
+                "map": require('../assets/img/re3n/files/david-s-memo/map/david-s-memo-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/police-station/police-station-1f/dark-room",
                 "map_source": "Evil Resource",
               }
@@ -3991,13 +3991,13 @@ export default createStore({
           },
           {
             "id": 5,
-            "src": require('../assets/img/re3/files/fax-from-kendo-gun-shop/fax-from-kendo-gun-shop.png'),
+            "src": require('../assets/img/re3n/files/fax-from-kendo-gun-shop/fax-from-kendo-gun-shop.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!fax-from-kendo-gun-shop",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/fax-from-kendo-gun-shop/map/fax-from-kendo-gun-shop-map.png'),
+                "map": require('../assets/img/re3n/files/fax-from-kendo-gun-shop/map/fax-from-kendo-gun-shop-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/police-station/police-station-2f/stars-office",
                 "map_source": "Evil Resource",
               }
@@ -4059,13 +4059,13 @@ export default createStore({
           },
           {
             "id": 6,
-            "src": require('../assets/img/re3/files/mercenary-s-diary/mercenary-s-diary.png'),
+            "src": require('../assets/img/re3n/files/mercenary-s-diary/mercenary-s-diary.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!mercenarys-diary",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/mercenary-s-diary/map/mercenary-s-diary-map.png'),
+                "map": require('../assets/img/re3n/files/mercenary-s-diary/map/mercenary-s-diary-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/zigzag-alley",
                 "map_source": "Evil Resource",
               }
@@ -4175,13 +4175,13 @@ export default createStore({
           },
           {
             "id": 7,
-            "src": require('../assets/img/re3/files/city-guide/city-guide.png'),
+            "src": require('../assets/img/re3n/files/city-guide/city-guide.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!city-guide",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/city-guide/map/city-guide-map.png'),
+                "map": require('../assets/img/re3n/files/city-guide/map/city-guide-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/restaurant",
                 "map_source": "Evil Resource",
               }
@@ -4267,13 +4267,13 @@ export default createStore({
           },
           {
             "id": 8,
-            "src": require('../assets/img/re3/files/photo-b/photo-b.png'),
+            "src": require('../assets/img/re3n/files/photo-b/photo-b.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-b",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/photo-b/map/photo-b-map.png'),
+                "map": require('../assets/img/re3n/files/photo-b/map/photo-b-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/press-office-lobby",
                 "map_source": "Evil Resource",
               }
@@ -4303,13 +4303,13 @@ export default createStore({
           },
           {
             "id": 9,
-            "src": require('../assets/img/re3/files/photo-c/photo-c.png'),
+            "src": require('../assets/img/re3n/files/photo-c/photo-c.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-c",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/photo-c/map/photo-c-map.png'),
+                "map": require('../assets/img/re3n/files/photo-c/map/photo-c-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/press-office",
                 "map_source": "Evil Resource",
               }
@@ -4331,13 +4331,13 @@ export default createStore({
           },
           {
             "id": 10,
-            "src": require('../assets/img/re3/files/reporter-s-memo/reporter-s-memo.png'),
+            "src": require('../assets/img/re3n/files/reporter-s-memo/reporter-s-memo.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!reporters-memo",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/reporter-s-memo/map/reporter-s-memo-map.png'),
+                "map": require('../assets/img/re3n/files/reporter-s-memo/map/reporter-s-memo-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/press-office",
                 "map_source": "Evil Resource",
               }
@@ -4383,13 +4383,13 @@ export default createStore({
           },
           {
             "id": 11,
-            "src": require('../assets/img/re3/files/mechanic-s-memo/mechanic-s-memo.png'),
+            "src": require('../assets/img/re3n/files/mechanic-s-memo/mechanic-s-memo.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!mechanics-memo",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/mechanic-s-memo/map/mechanic-s-memo-map.png'),
+                "map": require('../assets/img/re3n/files/mechanic-s-memo/map/mechanic-s-memo-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/downtown/cable-car-rear-carriage",
                 "map_source": "Evil Resource",
               }
@@ -4427,13 +4427,13 @@ export default createStore({
           },
           {
             "id": 12,
-            "src": require('../assets/img/re3/files/manager-s-report/manager-s-report.png'),
+            "src": require('../assets/img/re3n/files/manager-s-report/manager-s-report.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!managers-report",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/manager-s-report/map/manager-s-report-map.png'),
+                "map": require('../assets/img/re3n/files/manager-s-report/map/manager-s-report-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/sales-office",
                 "map_source": "Evil Resource",
               }
@@ -4471,13 +4471,13 @@ export default createStore({
           },
           {
             "id": 13,
-            "src": require('../assets/img/re3/files/business-fax/business-fax.png'),
+            "src": require('../assets/img/re3n/files/business-fax/business-fax.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!business-fax",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/business-fax/map/business-fax-map.png'),
+                "map": require('../assets/img/re3n/files/business-fax/map/business-fax-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/sales-office",
                 "map_source": "Evil Resource",
               }
@@ -4515,13 +4515,13 @@ export default createStore({
           },
           {
             "id": 14,
-            "src": require('../assets/img/re3/files/dario-s-memo/dario-s-memo.png'),
+            "src": require('../assets/img/re3n/files/dario-s-memo/dario-s-memo.png'),
             "src_source": "Evil Resource",
             "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!darios-memo",
             "location": [
               {
                 "txt": "Location",
-                "map": require('../assets/img/re3/files/dario-s-memo/map/dario-s-memo-map.png'),
+                "map": require('../assets/img/re3n/files/dario-s-memo/map/dario-s-memo-map.png'),
                 "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/uptown-and-downtown/uptown/warehouse",
                 "map_source": "Evil Resource",
               }
@@ -4585,6 +4585,74 @@ export default createStore({
               },
               {
                 "para": "پرنده‌ای که قبلِ پَرکشیدن، خداحافظی می‌کنه...",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "src": require('../assets/img/re3n/files/operation-instruction/operation-instruction.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!operation-instruction",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/operation-instruction/map/operation-instruction-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-clock-tower/clock-tower-1f/main-hall",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "operation-instruction",
+            "title": "Operation Instruction",
+            "og_content":[
+              {
+                "para": "Order for UBCS Echo Team:",
+                "dir": "left"
+              },
+              {
+                "para": "Wipe out the downtown area of the infestation and then evacuate the remaining citizens to the clock tower. Among the civilians, remember to give priority to the employees of Umbrella's affiliates. Remember to stay alert because the infected have a high endurance rate and will strike without hesitation.",
+                "dir": "left"
+              },
+              {
+                "para": "Evacuation Procedure:",
+                "dir": "left"
+              },
+              {
+                "para": "1. Once the mission is complete, or when it becomes too impossible to accomplish, evacuate immediately.",
+                "dir": "left"
+              },
+              {
+                "para": "2. We'll deploy a helicopter that is waiting in the suburbs, to the yard in front of the clock tower.",
+                "dir": "left"
+              },
+              {
+                "para": "3. When you are ready for evacuation, ring the bell of the clock tower to signal the helicopter.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
+                "dir": "right"
+              },
+              {
+                "para": "",
                 "dir": "right"
               }
             ]
