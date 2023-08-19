@@ -2039,7 +2039,7 @@ export default createStore({
                 "dir": "center"
               },
               {
-                 "para": "September 26th",
+                "para": "September 26th",
                 "dir": "right"
               },
               {
@@ -4640,7 +4640,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "روال انتقال:",
+                "para": "روال خروج:",
                 "dir": "right"
               },
               {
@@ -4653,6 +4653,118 @@ export default createStore({
               },
               {
                 "para": "۳. وقتی برای ترکِ محل آماده شدید، ناقوس را به صدا درآورید تا هلیکوپتر را متوجه سازید.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "src": require('../assets/img/re3n/files/art-picture-postcard/art-picture-postcard.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!art-picture-postcard",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/art-picture-postcard/map/art-picture-postcard-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-clock-tower/clock-tower-1f/small-library",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "art-picture-postcard",
+            "title": "Art Picture Postcard",
+            "og_content":[
+              {
+                "para": "A picture postcard of antique clocks.",
+                "dir": "left"
+              },
+              {
+                "para": "The following verse is printed.",
+                "dir": "left"
+              },
+              {
+                "para": "\"Give your soul to the goddess. Put your hands together to pray before her.\"",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "یه کارت‌پستال از ساعتای عتیقه.",
+                "dir": "right"
+              },
+              {
+                "para": "روش اینو نوشته:",
+                "dir": "right"
+              },
+              {
+                "para": "«روحت را در اختیار ایزدبانو قرار دِه. و دستانت را در کنار هم بگذار تا در محضرِ او نیایش کنی.»",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "src": require('../assets/img/re3n/files/mercenary-s-pocketbook/mercenary-s-pocketbook.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!mercenarys-pocketbook",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/mercenary-s-pocketbook/map/mercenary-s-pocketbook-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-clock-tower/clock-tower-1f/clock-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "mercenary-s-pocketbook",
+            "title": "Mercenary's Pocketbook",
+            "og_content":[
+              {
+                "para": "September 26th",
+                "dir": "left"
+              },
+              {
+                "para": "It's only been three hours since the mission started, but the team is down to me and Campbell. The number of the zombies is far greater than we expected. There is no hope left for this city. We have already injected the antibody for the virus, but I'm not sure that it will work. I don't know if I will survive...",
+                "dir": "left"
+              },
+              {
+                "para": "September 27th",
+                "dir": "left"
+              },
+              {
+                "para": "We managed to reach the clock tower. Out of desperation we robbed some wounded members of their weapons and used the surviving citizens as decoys. We were taught to do this in order to survive in the battle field, but I never enjoyed it. However, a girl showed up at the clock tower before me. She is one of the survivors. She looks just like my sister before she starved to death...",
+                "dir": "left"
+              },
+              {
+                "para": "September 28th",
+                "dir": "left"
+              },
+              {
+                "para": "I wanted to evacuate as soon as possible, but the girl didn't. Her father insisted that he wouldn't leave the city where his beloved wife rests in peace. I really wanted to save the girl, but Campbell said, \"All I care about is our lives.\" That's how I felt before, but now... The clock tower has become a dangerous place and I don't want to make anymore mistakes...",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "۲۶ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "همه‌ش سه ساعته که از شروع عملیات گذشته، ولی از تیم فقط من و کمپل موندیم. تعداد زامبی‌ها هم از چیزی که فکر می‌کردیم، خیلی بیشتره. امیدی به این شهر نیست. ما از قبل، آنتی‌بادیِ این ویروس رو تزریق کردیم، که خب مطمئن نیستم اثری داشته باشه. از زنده‌موندن‌ام بی‌خبرم...",
+                "dir": "right"
+              },
+              {
+                "para": "۲۷ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "موفق شدیم تا به برج ساعت دست پیدا کنیم. از روی ناچاری اما، اسلحه‌ی برخی از افراد زخمی رو کش رفتیم و از شهرواندای به‌جای‌مونده به عنوان تله استفاده کردیم. به ما گفته شده بود که برای زنده‌موندن تو میدون جنگ، این شیوه رو در پیش بگیریم، که خب من اصلا باهاش حال نکردم. با این وجود ولی یه دختر، توی برج ساعت و درست جلو روم، از راه می‌رسه. یکی از بازمونده‌ها... اون عین خواهرم بود، قبلِ اینکه از گرسنگی جونش رو از دست بده...",
+                "dir": "right"
+              },
+              {
+                "para": "۲۸ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "می‌خواستم در اولین فرصت از اینجا خارج بشم، ولی اون دختر چنین قصدی نداشت. باباش اصرار می‌کرد که قرار نیست شهرو، به عنوان محلی که همسرش به خاک سپرده شده، ترک کنه. من واقعا می‌خواستم دختره رو نجات بدم، ولی کمپل می‌گفت «این جون ماست که مهمه». قبلاها چنین حسی داشتم ها، ولی الآن... برج ساعت هم خطرناک شده و دیگه نمی‌خوام دست به اشتباه بزنم...",
                 "dir": "right"
               }
             ]
