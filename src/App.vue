@@ -129,9 +129,9 @@
         This website is constantly being updated, and this means that every time you enter, you're likely to see more CONTENT! So, stay tuned!
       </p>
       <p class="my-2 py-2 text-white border-y-8 border-double border-c-gray-8">
-        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">Art Picture Postcard</span> <span class="text-red-500">Translated</span> - <span class="text-purple-600">RE3N</span>
+        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">Director's Diary</span> <span class="text-red-500">Translated</span> - <span class="text-purple-600">RE3N</span>
         <br>
-        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">Mercenary's Pocketbook</span> <span class="text-red-500">Translated</span> - <span class="text-purple-600">RE3N</span>
+        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">Photo D</span> <span class="text-red-500">Translated</span> - <span class="text-purple-600">RE3N</span>
       </p>
       <p class="text-justify text-orange-300 uppercase">
         Many thanks to <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-500" href="https://www.evilresource.com/">Evil Resource</a>, and <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-500" href="https://residentevil.fandom.com/wiki/Resident_Evil_Wiki">Resident Evil Wiki</a>, for helping me shape the project!

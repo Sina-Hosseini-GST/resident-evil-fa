@@ -4768,6 +4768,118 @@ export default createStore({
                 "dir": "right"
               }
             ]
+          },
+          {
+            "id": 18,
+            "src": require('../assets/img/re3n/files/director-s-diary/director-s-diary.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!directors-diary",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/director-s-diary/map/director-s-diary-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-hospital/hospital-1f/doctors-lounge",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "director-s-diary",
+            "title": "Director's Diary",
+            "og_content":[
+              {
+                "para": "September 10th",
+                "dir": "left"
+              },
+              {
+                "para": "These patients suffer from gangrene and congestion of their blood at first. Then their mind slowly deteriorates. In the end, there is nothing left of their mind. When that happens even mercy killing seems pointless. After all, they are already dead...",
+                "dir": "left"
+              },
+              {
+                "para": "This disease is unlike anything I have ever witnessed. Once the patient's mind is gone, they become flesh hunger monsters and act like wild animals who are on some type of bloodlust.",
+                "dir": "left"
+              },
+              {
+                "para": "September 18th",
+                "dir": "left"
+              },
+              {
+                "para": "Another patient has been admitted to the hospital. He is showing symptoms of the first stages of the disease at this point, but... I haven't been able to sleep at all these past few days. I refuse to let these patients become \"zombies.\" I am not just an ordinary citizen. I am a doctor. Even if I die, my clinical charts will contribute to finding a cure.",
+                "dir": "left"
+              },
+              {
+                "para": "September 26th",
+                "dir": "left"
+              },
+              {
+                "para": "We lost most of the doctors and staff during the battle against the \"zombie\" patients. It's impossible to maintain the hospital under these conditions. And, I know that it's too late for me. I am beginning to feel that same itchy and hungry desire that all of my patients felt. It's too late for me...",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "۱۰ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "بیمارا در نگاه اول به قانقاریا و جمع‌شدنِ خون مبتلان. بعدها اما کَم‌کَمک زوال عقل می‌گیرن. و در پایان هم چیزی از عقل‌شون باقی نمی‌مونه. اینجاست که خلاص کردن بیمار از رنج، بی‌هدف جلوه می‌کنه. هر چی نباشه اونا دیگه مُردن...",
+                "dir": "right"
+              },
+              {
+                "para": "این بیماری، بی‌شباهت به هر چیزی‌ـه که تا به حال دیده بودم. وقتی عقل از سر بیمار می‌پره، اون به هیولای تشنه‌ی گوشتی تبدیل می‌شه که با عمل‌کردن مثل حیوونای وحشی، درجه‌ای از تشنگیِ خون رو به ارث می‌بره.",
+                "dir": "right"
+              },
+              {
+                "para": "۱۸ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "یه مریضِ دیگه راهی بیمارستان می‌شه. در حال حاضر هم علائم اولیه‌ی این بیماری رو از خودش بروز می‌ده، اما... اصلا این چند روزه خوابم نبرد. نمی‌خوام این مریضا تبدیل به «زامبی» بشن. من هم یه شهروند معمولی نیستم، دکترم. حتی اگه بمیرم هم نمودارهای مریض‌هام، برای چاره‌جوییِ این بیماری، وارد ماجرا می‌شن.",
+                "dir": "right"
+              },
+              {
+                "para": "۲۶ سپتامبر",
+                "dir": "right"
+              },
+              {
+                "para": "عمده‌ی دکترا و کارکنای اینجا رو طی نبرد با بیمارای «زامبی‌شده» از دست دادیم. غیر ممکنه بیمارستان رو، توی این وضعیت، بتونیم نگه داریم. و اینکه دیگه واسه‌م دیره. درست همون حس خارش و گرسنگی‌ای رو دارم که تمام مریضام داشتن. از من که گذشت...",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "src": require('../assets/img/re3n/files/photo-d/photo-d.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-d",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/photo-d/map/photo-d-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-hospital/hospital-4f/data-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "photo-d",
+            "title": "Photo D",
+            "og_content":[
+              {
+                "para": "The zombies are walking.",
+                "dir": "left"
+              },
+              {
+                "para": "It says, \"The effects of the \"T-virus\" on the backside.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "زامبی‌ها در حرکتن.",
+                "dir": "right"
+              },
+              {
+                "para": "پشتش نوشته «تاثیرات ویروس تی».",
+                "dir": "right"
+              }
+            ]
           }
         ]
       }
