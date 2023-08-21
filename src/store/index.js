@@ -4872,11 +4872,115 @@ export default createStore({
             ],
             "fa_content":[
               {
-                "para": "زامبی‌ها در حرکتن.",
+                "para": "زامبی‌ها پرسه می‌زنن.",
                 "dir": "right"
               },
               {
                 "para": "پشتش نوشته «تاثیرات ویروس تی».",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "src": require('../assets/img/re3n/files/medical-instruction-manual/medical-instruction-manual.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!medical-instruction-manual",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/medical-instruction-manual/map/medical-instruction-manual-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-hospital/hospital-b3/experiment-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "medical-instruction-manual",
+            "title": "Medical Instruction Manual",
+            "og_content":[
+              {
+                "para": "Umbrella Medical Service",
+                "dir": "left"
+              },
+              {
+                "para": "North America Division",
+                "dir": "left"
+              },
+              {
+                "para": "Douglas Rover",
+                "dir": "left"
+              },
+              {
+                "para": "In order to activate the synthesizer to cultivate the vaccine, please follow the procedure as detailed below:",
+                "dir": "left"
+              },
+              {
+                "para": "1. Supply enough energy to the system.",
+                "dir": "left"
+              },
+              {
+                "para": "2. Set the medium base to the device.",
+                "dir": "left"
+              },
+              {
+                "para": "When the device is ready, you can start mixing the vaccine medium. To mix the vaccine, you will need to control the five levers. This will cause the two gauges to increase or decrease. If you adjust the two gauges so that they stop at the center, the vaccine medium will then be produced automatically.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "سرویس داروییِ آمبرلا",
+                "dir": "right"
+              },
+              {
+                "para": "شعبه‌ی آمریکای شمالی",
+                "dir": "right"
+              },
+              {
+                "para": "داگلاس روور",
+                "dir": "right"
+              },
+              {
+                "para": "به منظور فعالسازیِ دستگاه فرآوری، برای پرورش واکسن، لطفا این پروسه را که با جزئیات شرح داده شده دنبال کنید:",
+                "dir": "right"
+              },
+              {
+                "para": "۱. انرژی لازم را برای سیستم تامین نمایید.",
+                "dir": "right"
+              },
+              {
+                "para": "۲. محفظه‌ی محلول را درون دستگاه قرار دهید.",
+                "dir": "right"
+              },
+              {
+                "para": "به هنگام آماده‌سازی دستگاه، می‌توان ترکیب‌سازیِ محلولِ واکسن را شروع کرد. برای این کار، نیاز است تا کنترل پنج اهرم به دست گرفته شود. امری که سبب می‌شود تا درجه‌ی دو سنجش‌گر، افزایش یا کاهش یابد. اگر این دو به گونه‌ای تنظیم شوند که در مرکز متوقف گردند، محلولِ واکسن خودبخود فرآوری می‌شود.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "src": require('../assets/img/re3n/files/photo-e/photo-e.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!photo-e",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/photo-e/map/photo-e-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/park/park-office",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "photo-e",
+            "title": "Photo E",
+            "og_content":[
+              {
+                "para": "The zombies are attacking.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "زامبی‌ها تاخت‌وتاز راه انداختن.",
                 "dir": "right"
               }
             ]
