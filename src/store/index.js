@@ -4504,11 +4504,11 @@ export default createStore({
                 "dir": "center"
               },
               {
-                "para": "این مایع دارویی، تحت نامِ وی‌تی-جِی۹۸، برای پرورش ویروس اِن‌ای-تی مناسبه. و به تبع هم نیازه تا مقدار بیشتری ازش رو سفارش بدیم.",
+                "para": "این مایع دارویی، تحت نامِ وی‌تی-جِی۹۸، برای پرورش ویروس اِن‌ای-تی مناسب است. و به تبع نیز نیاز است تا مقدار بیشتری از آن را سفارش دهیم.",
                 "dir": "right"
               },
               {
-                "para": "آزمایشگاه شیشمِ یو.ای",
+                "para": "آزمایشگاه ششمِ یو.ای",
                 "dir": "left"
               }
             ]
@@ -4981,6 +4981,137 @@ export default createStore({
             "fa_content":[
               {
                 "para": "زامبی‌ها تاخت‌وتاز راه انداختن.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "src": require('../assets/img/re3n/files/written-order-to-supervisors/written-order-to-supervisors.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!written-order-to-supervisors",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/written-order-to-supervisors/map/written-order-to-supervisors-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/park/forest-path",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "written-order-to-supervisors",
+            "title": "Written Order to Supervisors",
+            "og_content":[
+              {
+                "para": "Mission Requirements: Bravo 16",
+                "dir": "left"
+              },
+              {
+                "para": "1. Obtain and secure sample of all the information pertaining to this case. Observe and record combat data on the UBCS.",
+                "dir": "left"
+              },
+              {
+                "para": "2. Destroy all the evidence including the medical facility that has the medical treatment data.",
+                "dir": "left"
+              },
+              {
+                "para": "3. Check the guinea pig's ability to accomplish the mission.",
+                "dir": "left"
+              },
+              {
+                "para": "Once your mission is complete, evacuate the area. Remember that you must not help anyone who is not a supervisor, nor bring anything back that might be traced to where it belongs.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "ملزومات عملیات: براوو ۱۶",
+                "dir": "right"
+              },
+              {
+                "para": "۱. یه نمونه از کلیه‌ی اطلاعات این پرونده رو آماده و حفظ کنین. داده‌های مربوط به زدوخورد یوبی‌سی‌اِس رو مورد مشاهده و ثبت‌وضبط قرار بدین.",
+                "dir": "right"
+              },
+              {
+                "para": "۲. تمامی شواهد، از جمله تاسیسات دارویی‌ای که اطلاعات درمانی به دست داره رو، از بین ببرین.",
+                "dir": "right"
+              },
+              {
+                "para": "۳. تواناییِ موش آزمایشگاهی رو مورد بررسی قرار بدین تا ماموریت با موفقیت به پایان برسه.",
+                "dir": "right"
+              },
+              {
+                "para": "به محض اتمام عملیات، محل رو ترک کنین. و به یاد داشته باشین که نه به غیر مافوق‌ها کمکی برسونین، و نه چیزی که ممکنه جاش لو بره رو برگردونین.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "src": require('../assets/img/re3n/files/supervisor-s-report/supervisor-s-report.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!supervisors-report",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/supervisor-s-report/map/supervisor-s-report-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/park/secret-communications-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "supervisor-s-report",
+            "title": "Supervisor's Report",
+            "og_content":[
+              {
+                "para": "The endurance ability of the contaminated guinea pigs is truly incredible. Even when shot in a vital area, they can sometimes survive for several days without taking care of the wound. However, after prolonged exposure to the virus, the guinea pigs' intelligence level decreases to that of an insect. Even though reviving the dead seems too disgusting, the virus may still be of use. If we inject the virus into our POWs and release them, they would return to their units and then turn into zombies. This plan may work well for us in the future.",
+                "dir": "left"
+              },
+              {
+                "para": "In certain areas, the virus seems to have caused the mutation of animals and plants. It may be difficult, but it'll make a good sample for the bio weapon development. I've heard that there is a giant alligator, but I have only encountered a giant creature moving under ground. I don't even want to imagine what creature spawned that monster.",
+                "dir": "left"
+              },
+              {
+                "para": "I encountered \"NEMESIS.\" If I didn't know about it, I'd have been contaminated and would have become one of them by now. If it is still walking around in the city, its mission is not yet over. S.T.A.R.S. members must be very tough, since they have survived until this point. However, they cannot hold out forever...",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "الحق که موش‌های آزمایشگاهیِ آلوده، استقامتِ حیرت‌آوری دارن. حتی به محض شلیک به ناحیه‌ی حیاتی‌شون هم، بدون توجه به زخم و برای روزها، گاها ممکنه دووم بیارن. هرچند که تحت تماس طولانی‌مدت با ویروس، سطح هوشیاری‌شون در حد یه حشره میاد پایین. و با وجود اینکه به‌هوش‌آوردن این تلفات، کار چندش‌آوری‌ـه، ولی ویروس ممکنه همچنان به دردمون بخوره. اگه هم ویروس رو به پی‌اودابلیوهامون تزریق و بعد رهاشون کنیم، به سمت واحدهاشون برمی‌گردن و تبدیل به زامبی می‌شن. شاید این نقشه بعدها به کارمون بیاد.",
+                "dir": "right"
+              },
+              {
+                "para": "به نظر میاد که ویروس، توی نواحی خاصی، باعث دگرگونیِ حیوونا و گیاها می‌شه. شاید سخت باشه، اما این یه نمونه‌ی خوب برای توسعه‌ی سلاح بیولوژیکی‌مون به حساب میاد. خبرایی هم مبنی بر حضور یه تمساح گنده‌مُنده به گوشم خورده، ولی توی زیر زمین که فقط به یه موجود غول‌پیکر بر خوردم. حتی نمی‌خوامم فکر کنم که چه موجودی این هیولا رو پس انداخته.",
+                "dir": "right"
+              },
+              {
+                "para": "با «نمسیس» مواجه شدم. اگه چیزی ازش نمی‌دونستم، آلوده شده بودم و تا الآن به یکی از همونا تغییر هویت می‌دادم. اگه هنوز داره تو شهر پرسه می‌زنه، پس ماموریتش همچنان به پایان نرسیده. اعضای استارز هم سرسخت‌ان ها، چرا که تا به الآن دووم آوردن. اگرچه که اونا تا ابد طاقت نمیارن...",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "src": require('../assets/img/re3n/files/fax-from-headquarters/fax-from-headquarters.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!fax-from-headquarters",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/fax-from-headquarters/map/fax-from-headquarters-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/park/secret-communications-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "fax-from-headquarters",
+            "title": "Fax From Headquarters",
+            "og_content":[
+              {
+                "para": "Attention. The Raccoon City project has been abandoned. Our political maneuvering in the senate to delay their plans are now futile. All supervisors should evacuate immediately. The US army is going to execute their plan tomorrow morning. The city will be obliterated at daybreak for sure."
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "توجه. پروژه‌ی راکون رها شده است. تمهیدات سیاسی‌مان در مجلس سنا نیز برای به‌تاخیرانداختن نقشه‌هایشان دیگر نتیجه‌ی مثبتی در پی ندارد. تمامی مسئولان باید محل را بلافاصله ترک کنند. قرار است تا ارتش آمریکا فردا، به وقت صبح، نقشه‌اش را عملی سازد. شهر در سیپده‌دم با اطمینان نابود خواهد شد.",
                 "dir": "right"
               }
             ]
