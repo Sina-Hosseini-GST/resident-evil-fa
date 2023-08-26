@@ -5106,12 +5106,129 @@ export default createStore({
             "title": "Fax From Headquarters",
             "og_content":[
               {
-                "para": "Attention. The Raccoon City project has been abandoned. Our political maneuvering in the senate to delay their plans are now futile. All supervisors should evacuate immediately. The US army is going to execute their plan tomorrow morning. The city will be obliterated at daybreak for sure."
+                "para": "Attention. The Raccoon City project has been abandoned. Our political maneuvering in the senate to delay their plans are now futile. All supervisors should evacuate immediately. The US army is going to execute their plan tomorrow morning. The city will be obliterated at daybreak for sure.",
+                "dir": "left"
               }
             ],
             "fa_content":[
               {
                 "para": "توجه. پروژه‌ی راکون رها شده است. تمهیدات سیاسی‌مان در مجلس سنا نیز برای به‌تاخیرانداختن نقشه‌هایشان دیگر نتیجه‌ی مثبتی در پی ندارد. تمامی مسئولان باید محل را بلافاصله ترک کنند. قرار است تا ارتش آمریکا فردا، به وقت صبح، نقشه‌اش را عملی سازد. شهر در سیپده‌دم با اطمینان نابود خواهد شد.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "src": require('../assets/img/re3n/files/manager-s-diary/manager-s-diary.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!managers-diary",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/manager-s-diary/map/manager-s-diary-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/dead-factory-2f/resting-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "manager-s-diary",
+            "title": "Manager's Diary",
+            "og_content":[
+              {
+                "para": "April 25th",
+                "dir": "left"
+              },
+              {
+                "para": "Today is my 30th birthday. I was transferred to this facility today. I am very happy because the work environment is very different from life in the university.",
+                "dir": "left"
+              },
+              {
+                "para": "May 14th",
+                "dir": "left"
+              },
+              {
+                "para": "The disposal system has been completed. Using a special kind of gas, it can decompose the cells of the guinea pigs. We have to try this out before beginning practical usage of the system, since it is not 100% stable yet.",
+                "dir": "left"
+              },
+              {
+                "para": "May 20th",
+                "dir": "left"
+              },
+              {
+                "para": "While I was checking the treatment room, the door shut, and I was locked inside. I couldn't get out for one hour. I guess even if you have the key card, it's useless when you are locked inside.",
+                "dir": "left"
+              },
+              {
+                "para": "June 7th",
+                "dir": "left"
+              },
+              {
+                "para": "The guinea pigs we have to dispose of are increasing. The system is not working smoothly. The laboratory staff doesn't listen to my opinions and I am getting extremely frustrated.",
+                "dir": "left"
+              },
+              {
+                "para": "July 16th",
+                "dir": "left"
+              },
+              {
+                "para": "We can't dispose of all the bodies and the quality of the liquid medicine is not good enough, either...",
+                "dir": "left"
+              },
+              {
+                "para": "July 29th",
+                "dir": "left"
+              },
+              {
+                "para": "Though the function of the system decreases, the number of the bodies we have to dispose doesn't. The infection level has increased and the antibodies we are using is no match for the new mutation of the virus. Some of the workers have been infected by the disease. I have continued to work, but I always keep a gun with me. I must remember to save one bullet for me. I want to weep. I don't want to die here. I swear that I'll lose my mind if I imagine how painful the death will be...",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "۲۵ آوریل",
+                "dir": "right"
+              },
+              {
+                "para": "امروز تولد ۳۰ سالگی‌مه. در حال حاضر هم به این موسسه منتقل شدم. خیلی خوشحالم که محیط کاری با زندگی دانشگاهی، به کل متفاوته.",
+                "dir": "right"
+              },
+              {
+                "para": "۱۴ مه",
+                "dir": "right"
+              },
+              {
+                "para": "سیستم دفع هم تکمیل شد. با استفاده از یه گاز ویژه، این سیستم می‌تونه سلول‌های متعلق به موش‌های آزمایشگاهی‌مون رو از هم بپاشونه. از اونجایی هم که سیستم، صددرصد پایدار نیست، قبلِ کار عملی با اون باید حتما امتحانش کرد.",
+                "dir": "right"
+              },
+              {
+                "para": "۲۰ مه",
+                "dir": "right"
+              },
+              {
+                "para": "موقع بررسیِ اتاق درمان، در بسته می‌شه و منم حبس می‌شم. تا یه ساعت هم نشد بیام بیرون. حدسم اینه که وقتی حبس بشی، حتی داشتن کلید کارتی هم دردی رو دوا نمی‌کنه.",
+                "dir": "right"
+              },
+              {
+                "para": "۷ ژوئن",
+                "dir": "right"
+              },
+              {
+                "para": "موش‌های آزمایشگاهی‌ای که باید کلک‌شون رو بکنیم، رو به افزایش‌ان. سیستم دردسر به بار میاره. کارکنای آزمایشگاه به حرفام بها نمی‌دن، و این منو شدیدا دلسرد می‌کنه.",
+                "dir": "right"
+              },
+              {
+                "para": "۱۶ ژوئیه",
+                "dir": "right"
+              },
+              {
+                "para": "از شرِ همه‌ی اجساد نمی‌تونیم خلاص شیم، و کیفیت شربت‌های دارویی هم تعریفی نداره...",
+                "dir": "right"
+              },
+              {
+                "para": "۲۹ ژوئن",
+                "dir": "right"
+              },
+              {
+                "para": "با اینکه عملکرد سیستم روندِ رو به کاهشی رو طی می‌کنه، ولی شُمار اجسادی که باید کلک‌شون رو بکنیم اینطور نیستن. سطح آلودگی افزایش پیدا کرده و آنتی‌بادی‌های مورد استفاده‌ی ما برای جهش این ویروس، چاره‌گشا نیستن. بعضی از کارکنا هم به این بیماری مبتلا شدن. من به کارم ادامه دادم، با تفنگی که همیشه همرامه. نباید فراموش کنم که یه گلوله رو برای خودم نگه دارم. می‌خوام بزنم زیر گریه. نمی‌خوام اینجا بمیرم. اگه بفهمم که چقدر مرگ دردناکه، قسم می‌خورم که رد می‌دم...",
                 "dir": "right"
               }
             ]
