@@ -5080,11 +5080,11 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "به نظر میاد که ویروس، توی نواحی خاصی، باعث دگرگونیِ حیوونا و گیاها می‌شه. شاید سخت باشه، اما این یه نمونه‌ی خوب برای توسعه‌ی سلاح بیولوژیکی‌مون به حساب میاد. خبرایی هم مبنی بر حضور یه تمساح گنده‌مُنده به گوشم خورده، ولی توی زیر زمین که فقط به یه موجود غول‌پیکر بر خوردم. حتی نمی‌خوامم فکر کنم که چه موجودی این هیولا رو پس انداخته.",
+                "para": "به نظر میاد که ویروس، توی نواحی خاصی، باعث دگرگونیِ حیوونا و گیاها می‌شه. شاید سخت باشه، اما این یه نمونه‌ی خوب برای توسعه‌ی سلاح بیولوژیکی‌مون به حساب میاد. خبرایی هم مبنی بر حضور یه تمساح گنده‌مُنده به گوشم خورده، ولی توی زیرزمین که فقط به یه موجود غول‌پیکر بر خوردم. حتی نمی‌خوامم فکر کنم که چه موجودی این هیولا رو پس انداخته.",
                 "dir": "right"
               },
               {
-                "para": "با «نمسیس» مواجه شدم. اگه چیزی ازش نمی‌دونستم، آلوده شده بودم و تا الآن به یکی از همونا تغییر هویت می‌دادم. اگه هنوز داره تو شهر پرسه می‌زنه، پس ماموریتش همچنان به پایان نرسیده. اعضای استارز هم سرسخت‌ان ها، چرا که تا به الآن دووم آوردن. اگرچه که اونا تا ابد طاقت نمیارن...",
+                "para": "با «نمسیس» مواجه شدم. اگه چیزی ازش نمی‌دونستم، آلوده شده بودم و تا الآن به یکی از همونا تغییر هویت می‌دادم. اگه هنوز داره تو شهر پرسه می‌زنه، پس ماموریتش همچنان به پایان نرسیده. اعضای استارز هم سرسخت‌ان که تا به الآن دووم آوردن. هرچند که اونا تا ابد طاقت نمیارن...",
                 "dir": "right"
               }
             ]
@@ -5212,7 +5212,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "موش‌های آزمایشگاهی‌ای که باید کلک‌شون رو بکنیم، رو به افزایش‌ان. سیستم دردسر به بار میاره. کارکنای آزمایشگاه به حرفام بها نمی‌دن، و این منو شدیدا دلسرد می‌کنه.",
+                "para": "موش‌های آزمایشگاهی‌ای که باید کلک‌شون رو بکنیم، رو به افزایش‌ان. سیستم دردسر به بار میاره. کارکنای آزمایشگاه به نظراتم بها نمی‌دن، و این منو شدیدا دلسرد می‌کنه.",
                 "dir": "right"
               },
               {
@@ -5229,6 +5229,146 @@ export default createStore({
               },
               {
                 "para": "با اینکه عملکرد سیستم روندِ رو به کاهشی رو طی می‌کنه، ولی شُمار اجسادی که باید کلک‌شون رو بکنیم اینطور نیستن. سطح آلودگی افزایش پیدا کرده و آنتی‌بادی‌های مورد استفاده‌ی ما برای جهش این ویروس، چاره‌گشا نیستن. بعضی از کارکنا هم به این بیماری مبتلا شدن. من به کارم ادامه دادم، با تفنگی که همیشه همرامه. نباید فراموش کنم که یه گلوله رو برای خودم نگه دارم. می‌خوام بزنم زیر گریه. نمی‌خوام اینجا بمیرم. اگه بفهمم که چقدر مرگ دردناکه، قسم می‌خورم که رد می‌دم...",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "src": require('../assets/img/re3n/files/security-manual/security-manual.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!security-manual",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/security-manual/map/security-manual-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/dead-factory-1f/monitoring-room",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "security-manual",
+            "title": "Security Manual",
+            "og_content":[
+              {
+                "para": "\"Security of the Plant\"",
+                "dir": "left"
+              },
+              {
+                "para": "Since this plan is a facility under the disguise of a deserted factory, civilians will sometimes enter. If this should occur, do not hesitate to shoot them. If they choose to surrender, arrest and then transfer them to the laboratory as new guinea pigs. You will be rewarded.",
+                "dir": "left"
+              },
+              {
+                "para": "\"Maintenance of the Device\"",
+                "dir": "left"
+              },
+              {
+                "para": "This entire plant is controlled by an epidemic prevention system. When contamination is detected in the treatment room or decomposed specimen pool, the plant will automatically be locked down for isolation. In that case, you must follow the manual to unlock it. If the contamination is over the limit, the whole system will automatically lockdown. Then, you must remain in the plant and wait for subsequent orders. Those who leave the facility without permission will suffer extreme consequences.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "«سلامت گیاه»",
+                "dir": "right"
+              },
+              {
+                "para": "از آنجا که این گیاه، تاسیساتی‌ست در پوشش یک کارخانه‌ی ویران‌شده، شهروندان گاها به آن ورود می‌یابند. در صورت الزام به وقوع این امر، تردید برای شلیک‌شان را کنار بگذارید. اگر تصمیم به تسلیم‌شدن گرفتند، آن‌ها را دستگیر کرده و به عنوان موش‌های آزمایشگاهی جدید، به آزمایشگاه تحویل‌شان دهید. شما پاداش دریافت خواهید کرد.",
+                "dir": "right"
+              },
+              {
+                "para": "«حفظ دستگاه»",
+                "dir": "right"
+              },
+              {
+                "para": "این گیاه تماما توسط یک سیستمِ جلوگیری از شیوع، تحت کنترل است. به هنگام تشخیص آلودگی در اتاق درمان یا استخرِ نمونه‌ی تجزیه‌شده، گیاه خودبخود و به منظور ایزوله‌سازی، قرنطینه می‌شود. در این حالت، باید از راهنمای موجود برای بازکردن آن استفاده کرد. اگر آلودگی از حد مجاز خارج شود، کل سیستم بطور خودکار به انجام قرنطینه می‌پردازد. در این هنگام، می‌بایست در گیاه باقی ماند و منتظر دستورات پیاپی شد. افرادی که بدون اجازه، تاسیسات را ترک می‌کنند، از تبعات حادی رنج خواهند برد.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "src": require('../assets/img/re3n/files/incinerator-manual/incinerator-manual.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!incinerator-manual",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/incinerator-manual/map/incinerator-manual-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/dead-factory-1f/emergency-tunnel",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "incinerator-manual",
+            "title": "Incinerator Manual",
+            "og_content":[
+              {
+                "para": "The incinerator plant is one of the facilities that burns the disposable items which are sent from the laboratory. The incinerator burns the waste materials that cannot be decomposed at the treatment room. It also supplies electricity to the facility by a thermal power electricity generator. Part of the electricity is stored in the big battery installed in the facility's underground area. The electricity is used as an auxiliary power source.",
+                "dir": "left"
+              },
+              {
+                "para": "The auxiliary power circuit will be activated once the three \"auxiliary circuit units\" are properly placed in their sockets. In case the circuits are not connected automatically, a person can connect them manually to activate the system.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "نیروگاه زباله‌سوز یکی از تاسیساتی‌ست که موادِ یک‌بارمصرفی که از آزمایشگاه فرستاده می‌شوند را می‌سوزاند. این زباله‌سوز، به سوختن ضایعاتی در اتاق درمان می‌پردازد که نمی‌توانند تجزیه شوند. همچنین این زباله‌سوز به واسطه‌ی ژنراتور حرارتی، الکتریسیته‌ی لازم را برای تاسیسات فراهم می‌آورد. بخشی از این الکتریسیته در باتری بزرگی که در زیرزمینِ تاسیسات نصب شده، ذخیره می‌شود. این الکتریسیته، به عنوان نیرودِه کمکی مورد استفاده قرار می‌گیرد.",
+                "dir": "right"
+              },
+              {
+                "para": "جریان برق کمکی در صورتی فعال می‌شود که سه «واحد جریان کمکی» به درستی در سر جایشان قرار بگیرند. در صورتی که این سه به طور خودکار به هم متصل نبودند، نیروی انسانی می‌تواند برای فعالسازی سیستم، آن‌ها را به طور دستی به یکدیگر اتصال دهد.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "src": require('../assets/img/re3n/files/classified-photo-file/classified-photo-file.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files/classified-photo-file",
+            "location": [
+              {
+                "txt": "Location",
+                "map": require('../assets/img/re3n/files/classified-photo-file/map/classified-photo-file-map.png'),
+                "map_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/maps/raccoon-city-outskirts/dead-factory-1f/car-yard",
+                "map_source": "Evil Resource",
+              }
+            ],
+            "url": "classified-photo-file",
+            "title": "Classified Photo File",
+            "og_content":[
+              {
+                "para": "In my opinion, I feel that it's too early to use this, \"Paracelsus' Sword\" in actual fighting. However, in order to acquire the G-virus that Umbrella has developed, it will be a great help to us.",
+                "dir": "left"
+              },
+              {
+                "para": "The power of the \"Rail Cannon\" is satisfactory, but please note that it is still having a few remaining problems.",
+                "dir": "left"
+              },
+              {
+                "para": "Technology Division Colonel",
+                "dir": "left"
+              },
+              {
+                "para": "Franklin Hart",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "به نظرم خیلی زوده که «شمشیر پاراسل‌سوس» رو توی مبارزه‌ی واقعی به کار ببریم. هرچند این یه کمک بزرگ به ما برای دستیابی به ویروس جی‌ـه، ویروسی که آمبرلا توسعه‌ش داده.",
+                "dir": "right"
+              },
+              {
+                "para": "قدرت «ریل‌گان» رضایت‌بخشه، ولی لطفا توجه داشته باشین که همچنان یه سری از مشکلاتش باقیه.",
+                "dir": "right"
+              },
+              {
+                "para": "سرهنگ بخش تکنولوژی",
+                "dir": "right"
+              },
+              {
+                "para": "فرانکلین هارت",
                 "dir": "right"
               }
             ]
