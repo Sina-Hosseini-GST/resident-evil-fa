@@ -5325,7 +5325,7 @@ export default createStore({
             "id": 28,
             "src": require('../assets/img/re3n/files/classified-photo-file/classified-photo-file.png'),
             "src_source": "Evil Resource",
-            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files/classified-photo-file",
+            "src_source_link": "https://www.evilresource.com/resident-evil-3-nemesis/files#!classified-photo-file",
             "location": [
               {
                 "txt": "Location",
