@@ -4,7 +4,7 @@
       <div class="border-2 border-c-gray-4">
         <img :src="file.src" :alt="`${file.title} file image`" class="text-white text-center w-c-2 mx-auto">
         <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
-          Credits Goes to <a target="_blank" :href="file.src_source_link" class="underline hover:font-bold text-orange-400"> {{ file.src_source }} </a>
+          Credit Goes to <a target="_blank" :href="file.src_source_link" class="underline hover:font-bold text-orange-400"> {{ file.src_source }} </a>
         </div>
       </div>
       <div class="text-center bg-white sticky bottom-0 text-black -mx-4">
@@ -16,13 +16,13 @@
         <div v-if="location.src" class="border-2 border-c-gray-4">
           <img :src="location.src" :alt="`${file.title} in-game location`" class="text-white text-center w-full border-b border-c-gray-4">
           <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto">
-            Credits Goes to <a target="_blank" :href="location.src_source_link" class="underline hover:font-bold text-orange-400"> {{ location.src_source }} </a>
+            Credit Goes to <a target="_blank" :href="location.src_source_link" class="underline hover:font-bold text-orange-400"> {{ location.src_source }} </a>
           </div>
         </div>
         <div class="border-2 border-c-gray-4">
           <img :src="location.map" :alt="`${file.title} location on the map`" class="text-white text-center w-full border-b border-c-gray-4">
           <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto">
-            Credits Goes to <a target="_blank" :href="location.map_source_link" class="underline hover:font-bold text-orange-400"> {{ location.map_source }} </a>
+            Credit Goes to <a target="_blank" :href="location.map_source_link" class="underline hover:font-bold text-orange-400"> {{ location.map_source }} </a>
           </div>
         </div>
         <p class="text-center bg-white sticky bottom-0 text-black -mx-4">
