@@ -60,14 +60,16 @@ export default {
     setRoute(){
       for(let i=0; i<this.$store.state.games.length; i++){
         if(this.$store.state.games[i].url == this.$route.params.gameUrl){
-          this.$store.state.isGameSelected= true
-          this.$store.state.game= this.$store.state.games[i]
-          this.$store.state.files= this.$store.state.games[i].files
+          this.$store.state.isGameSelected = true
+          this.$store.state.game = this.$store.state.games[i]
+          document.title = `${this.$store.state.game.title} Files`
+          this.$store.state.files = this.$store.state.games[i].files
         }
       }
       for(let i=0; i<this.$store.state.files.length; i++){
         if(this.$store.state.files[i].url == this.$route.params.fileUrl){
-          this.$store.state.file= this.$store.state.files[i]
+          this.$store.state.file = this.$store.state.files[i]
+          document.title = this.$store.state.file.title
         }
       }
     }

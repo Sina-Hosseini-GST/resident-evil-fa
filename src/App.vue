@@ -21,109 +21,8 @@
       <p class="text-justify text-pink-100">
         Hi, I'm <a class="underline underline-offset-2 hover:font-bold text-white" href="mailto:sina.hosseini.gst@gmail.com">Sina</a>, and this is my independent project, to translate the whole in-game documents of each <span class="italic">Resident Evil</span> into Persian! Go select your desired title and explore the story!
       </p>
-      <div class="text-c-red-2 font-bold leading-c-3 flex flex-col items-center mt-8 mb-12">
-        <div class="flex gap-2">
-          <span class="w-2"> </span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2"> </span>
-        </div>
-        <div class="flex gap-2">
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2"> </span>
-          <span class="w-2">\</span>
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">|</span>
-        </div>
-        <div class="flex gap-2">
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2">|</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">)</span>
-          <span class="w-2"> </span>
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2">|</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-        </div>
-        <div class="flex gap-2">
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2">_</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2">/</span>
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-        </div>
-        <div class="flex gap-2">
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2">\</span>
-          <span class="w-2"> </span>
-          <span class="w-2">\</span>
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2">|</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2"> </span>
-        </div>
-        <div class="flex gap-2">
-          <span class="w-2">|</span>
-          <span class="w-2">_</span>
-          <span class="w-2">|</span>
-          <span class="w-2"> </span>
-          <span class="w-2"> </span>
-          <span class="w-2">\</span>
-          <span class="w-2">_</span>
-          <span class="w-2">\</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">_</span>
-          <span class="w-2">|</span>
-        </div>
+      <div class="my-8">
+        <img class="w-2/5 min-w-c-2 mx-auto" src="./assets/img/logo/logo.png" alt="Logo image">
       </div>
       <p class="text-justify text-red-100 italic">
         This website is constantly being updated, and this means that every time you enter, you're likely to see more CONTENT! So, stay tuned!
@@ -143,30 +42,34 @@
 import Breadcrumb from './components/Breadcrumb.vue'
 export default {
   components: {
-    Breadcrumb,
+    Breadcrumb
   },
   methods: {
     setGame(game){
       this.$store.state.isGameSelected= true
-      this.$store.state.game= game
-      this.$store.state.files= game.files
+      this.$store.state.game = game
+      this.$store.state.files = game.files
+      document.title = `${game.title} Files`
     },
     setFile(file){
-      this.$store.state.file= file
+      this.$store.state.file = file
+      document.title = file.title
     },
     setRoute(){
       for(let i=0; i<this.$store.state.games.length; i++){
         if(this.$store.state.games[i].url == this.$route.params.gameUrl){
-          this.$store.state.isGameSelected= true
-          this.$store.state.game= this.$store.state.games[i]
-          this.$store.state.files= this.$store.state.games[i].files
-          this.$store.state.file= {}
+          this.$store.state.isGameSelected = true
+          this.$store.state.game = this.$store.state.games[i]
+          document.title = `${this.$store.state.game.title} Files`
+          this.$store.state.files = this.$store.state.games[i].files
+          this.$store.state.file = {}
         }
       }
       if(this.$route.fullPath == '/'){
-        this.$store.state.isGameSelected= false
-        this.$store.state.game= {}
-        this.$store.state.files= []
+        this.$store.state.isGameSelected = false
+        this.$store.state.game = {}
+        this.$store.state.files = []
+        document.title = 'REdocs'
       }
     }
   },

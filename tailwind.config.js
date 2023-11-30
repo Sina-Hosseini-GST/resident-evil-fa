@@ -50,6 +50,7 @@ module.exports = {
         },
         minWidth: {
           'c': '.75rem',
+          'c-2': '15.2rem',
         },
         content: {
           'c': "'|'",
