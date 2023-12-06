@@ -11,7 +11,7 @@
         File Image
       </div>
     </div>
-    <div class="flex flex-col gap-4 locations">
+    <div class="flex flex-col gap-4 locations" v-if="file.location">
       <div class="flex flex-col gap-4 location" v-for="location in file.location" :key="location">
         <div v-if="location.src" class="border-2 border-c-gray-4">
           <img :src="location.src" :alt="`${file.title} in-game location`" class="text-white text-center w-full border-b border-c-gray-4">
@@ -19,7 +19,7 @@
             Credit Goes to <a target="_blank" :href="location.src_source_link" class="underline hover:font-bold text-orange-400"> {{ location.src_source }} </a>
           </div>
         </div>
-        <div class="border-2 border-c-gray-4">
+        <div v-if="location.map" class="border-2 border-c-gray-4">
           <img :src="location.map" :alt="`${file.title} location on the map`" class="text-white text-center w-full border-b border-c-gray-4">
           <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto">
             Credit Goes to <a target="_blank" :href="location.map_source_link" class="underline hover:font-bold text-orange-400"> {{ location.map_source }} </a>

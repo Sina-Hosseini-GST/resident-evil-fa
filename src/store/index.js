@@ -2299,7 +2299,7 @@ export default createStore({
                 "dir": "left"
               },
               {
-                "para": "صبح زوده، ساعت هم ۲:۳۰. زامبی‌ها توی اتاقِ عملیات، تاخت‌وتاز راه می‌ندازن و یه مبارزه‌ی دیگه رو رقم می‌زنن. ما هم چهار نفر دیگه رو از دست می‌دیم، از جمله دیوید رو.",
+                "para": "صبح زوده، ساعت هم ۲:۳۰. زامبی‌ها توی اتاقِ عملیات، تاخت‌وتاز راه می‌ندازن و یه مبارزه‌ی دیگه رو رقم می‌زنن. ما هم چهار نفر دیگه رو از دست دادیم، از جمله دیوید رو.",
                 "dir": "right"
               },
               {
@@ -5373,6 +5373,98 @@ export default createStore({
               }
             ]
           }
+        ]
+      },
+      {
+        id: 4,
+        title: 'RE4',
+        url: 're4',
+        files:
+        [
+          {
+            "id": 1,
+            "src": require('../assets/img/re4/files/info-on-ashley/info-on-ashley.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!info-on-ashley",
+            "url": "info-on-ashley",
+            "title": "Info on Ashley",
+            "og_content":[
+              {
+                "para": "Name: Ashley Graham",
+                "dir": "left"
+              },
+              {
+                "para": "Age: 20",
+                "dir": "left"
+              },
+              {
+                "para": "Daughter of the United States President.",
+                "dir": "left"
+              },
+              {
+                "para": "She was kidnapped by an unidentified group while on her way home from her university.",
+                "dir": "left"
+              },
+              {
+                "para": "The kidnapper's motives are still unknown. Although there's reliable information that the perpetrator is an insider.",
+                "dir": "left"
+              },
+              {
+                "para": "Only a handful of people know about this kidnapping. It's been kept under wraps mostly due to the fact that we can't determine who the traitor is.",
+                "dir": "left"
+              },
+              {
+                "para": "The guys in intelligence say they have reliable information that Ashley's been sighted somewhere in Europe. But until we find out who the insider is, I don't know what to believe. It could be a ploy.",
+                "dir": "left"
+              },
+              {
+                "para": "We have very few leads as to the whereabouts of Ashley. But members of the Secret Service and anyone related to Ashley are being questioned by an investigative team.",
+                "dir": "left"
+              },
+              {
+                "para": "Even active agents are being investigated for any information. It's just a matter of time before the kidnapper is exposed.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "نام: اشلی گراهام",
+                "dir": "right"
+              },
+              {
+                "para": "سن: ۲۰",
+                "dir": "right"
+              },
+              {
+                "para": "دختر رئیس جمهور آمریکا",
+                "dir": "right"
+              },
+              {
+                "para": "وی در راه بازگشت از دانشگاه به خانه، توسط گروهی مجهول‌الهویه ربوده می‌شود.",
+                "dir": "right"
+              },
+              {
+                "para": "انگیزه‌ی شخص آدم‌ربا همچنان نامشخص است. اطلاعات موثق اما، نشان می‌دهند که مجرم شخصی نفوذی‌ست.",
+                "dir": "right"
+              },
+              {
+                "para": "تنها تعداد کمی از مردم از این موضوع مطلع‌اند. و از آنجا که نمی‌توان گفت شخص خیانت‌کار کیست، از افشای این مهم جلوگیری شده.",
+                "dir": "right"
+              },
+              {
+                "para": "واحد خبره، با توجه به اخبار موثقی که در دست دارد، اظهار می‌کند که اشلی در گوشه‌کناری در اروپا رویت شده. تا هنگام پیدا کردن شخص نفوذی اما، نمی‌دانم که به چه چیزی اطمینان کنم. پای یک حقه در میان است.",
+                "dir": "right"
+              },
+              {
+                "para": "اطلاعات کمی از محل سکونت اشلی در دست داریم. افرادِ سرویس مخفی آمریکا و همچنین بستگانِ اشلی، توسط تیم تجسس مورد بازجویی قرار گرفته‌اند.",
+                "dir": "right"
+              },
+              {
+                "para": "حتی عوامل فعال نیز، برای کسب هرگونه اطلاعات، مورد بازجویی قرار می‌گیرند. امری که دیر یا زود، و تا زمان برملاشدنِ هویتِ شخص آدم‌ربا ادامه دارد.",
+                "dir": "right"
+              }
+            ]
+          },
         ]
       }
     ],

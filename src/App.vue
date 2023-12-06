@@ -27,9 +27,26 @@
       <p class="text-justify text-red-100 italic">
         This website is constantly being updated, and this means that every time you enter, you're likely to see more CONTENT! So, stay tuned!
       </p>
-      <p class="my-2 py-2 text-white border-y-8 border-double border-c-gray-8">
-        <span class="text-c-blue-3">UPDATE</span>: <span class="text-c-blue-2">All Main Files</span> <span class="text-red-500">Translated</span> - <span class="text-purple-600">RE3N</span>
-      </p>
+      <div class="my-2 py-2 text-white border-y-8 border-double border-c-gray-8">
+        <div class="text-c-blue-3 text-center font-bold">UPDATE LOG</div>
+        <ul>
+          <li>
+            <span class="text-c-blue-2">All Main Files <span class="italic">Translated</span></span> - <span class="text-c-blue-2 font-bold">RE1</span> | <span class="text-c-blue-3">Jul 15, 2023</span>
+          </li>
+          <li>
+            <span class="text-c-blue-2">All Main Files <span class="italic">Translated</span></span> - <span class="text-c-blue-2 font-bold">RE2</span> | <span class="text-c-blue-3">Jul 15, 2023</span>
+          </li>
+          <li>
+            <span class="text-c-blue-2">All Main Files <span class="italic">Translated</span></span> - <span class="text-c-blue-2 font-bold">RE3N</span> | <span class="text-c-blue-3">Aug 27, 2023</span>
+          </li>
+          <li>
+            <span class="text-c-blue-2">Translation <span class="italic">Started</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 6, 2023</span>
+          </li>
+          <li>
+            <span class="text-c-blue-2">Info on Ashley <span class="italic">translated</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 6, 2023</span>
+          </li>
+        </ul>
+      </div>
       <p class="text-justify text-orange-300 uppercase">
         Many thanks to <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-500" href="https://www.evilresource.com/">Evil Resource</a>, and <a target="_blank" class="underline underline-offset-2 hover:font-bold text-orange-500" href="https://residentevil.fandom.com/wiki/Resident_Evil_Wiki">Resident Evil Wiki</a>, for helping me shape the project!
       </p>
