@@ -84,6 +84,6 @@
 
 <script>
 export default {
-  props: ['file', 'game']
+  props: ['game', 'file']
 }
 </script>

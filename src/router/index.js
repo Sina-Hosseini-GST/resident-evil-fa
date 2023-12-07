@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import App from '../App.vue'
-import File from '../views/File.vue'
+// import App from '../App.vue'
+import Game from '../views/Game.vue'
 
 const routes = [
   {
     path: '/:gameUrl/files',
-    name: 'app',
-    component: App
+    name: 'gameOne',
+    component: Game
   },
   {
     path: '/:gameUrl/files/:fileUrl',
-    name: 'file',
-    component: File
+    name: 'gameTwo',
+    component: Game
   }
 ]
 
