@@ -4,7 +4,7 @@
       <nav>
         <ul class="flex items-center flex-nowrap overflow-auto gap-6 px-6 h-16">
           <li class="h-full items-center not-last-child:after:content-c not-last-child:after:ml-6 not-last-child:after:text-white flex" v-for="game in this.$store.state.games" :key="game.id">
-            <router-link class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" :to="{ name: 'gameOne', params: { gameUrl: game.url } }" @click="setGame(game)" :title="game.name">
+            <router-link class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" :to="{ name: 'game', params: { gameUrl: game.url } }" @click="setGame(game)" :title="game.name">
               {{ game.title }}
             </router-link>
           </li>
@@ -46,6 +46,15 @@
             <li>
               <span class="text-c-blue-2">Info on Ashley <span class="italic">proofread</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 7, 2023</span>
             </li>
+            <li>
+              <span class="text-c-blue-2">Info on Ashley <span class="italic">proofread</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 10, 2023</span>
+            </li>
+            <li>
+              <span class="text-c-blue-2">Alert Order <span class="italic">translated</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 10, 2023</span>
+            </li>
+            <li>
+              Number of Files Translated => {{ numberOfFilesTranslated }}
+            </li>
           </ul>
         </details>
         <p class="text-justify text-orange-300 uppercase">
@@ -59,11 +68,16 @@
 
 <script>
 import Breadcrumb from './components/Breadcrumb.vue'
-export default {
-  components: {
+export default{
+  data(){
+    return{
+      numberOfFilesTranslated: 0
+    }
+  },
+  components:{
     Breadcrumb
   },
-  methods: {
+  methods:{
     setGame(game){
       this.$store.state.isGameSelected= true
       this.$store.state.game = game
@@ -93,6 +107,10 @@ export default {
     }
   },
   mounted(){
+    for(let i=0; i<this.$store.state.games.length; i++){
+      const game = this.$store.state.games[i]
+      this.numberOfFilesTranslated += game.files.length
+    }
     this.setRoute()
     window.addEventListener('popstate', () => {
       this.setRoute()

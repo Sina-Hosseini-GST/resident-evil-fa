@@ -3,7 +3,7 @@
     <nav>
       <ul class="flex items-center flex-nowrap overflow-auto gap-6 px-6 h-16">
         <li class="h-full items-center not-last-child:after:content-c not-last-child:after:ml-6 not-last-child:after:text-white flex" v-for="file in files" :key="file.id">
-          <router-link class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" :to="{ name: 'gameTwo', params: { gameUrl: this.$store.state.game.url, fileUrl: file.url } }" @click="setFile(file)">
+          <router-link class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" :to="{ name: 'file', params: { gameUrl: this.$store.state.game.url, fileUrl: file.url } }" @click="setFile(file)">
             {{ file.title }}
           </router-link>
         </li>
@@ -22,7 +22,7 @@
         <div class="border-2 border-c-gray-4">
           <img :src="this.$store.state.file.src" :alt="`${this.$store.state.file.title} file image`" class="text-white text-center w-c-2 mx-auto">
           <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
-           Credit Goes to <a target="_blank" :href="this.$store.state.file.src_source_link" class="underline hover:font-bold text-orange-400"> {{ this.$store.state.file.src_source }} </a>
+           Credit Goes to <a target="_blank" :href="this.$store.state.file.src_source_link" class="underline hover:font-bold text-orange-400">{{ this.$store.state.file.src_source }}</a>
           </div>
         </div>
         <div class="text-center bg-white sticky bottom-0 text-black -mx-4">
@@ -32,14 +32,14 @@
       <div class="flex flex-col gap-4 locations" v-if="this.$store.state.file.location">
         <div class="flex flex-col gap-4 location" v-for="location in this.$store.state.file.location" :key="location">
           <div v-if="location.src" class="border-2 border-c-gray-4">
-            <img :src="location.src" :alt="`${this.$store.state.file.title} in-game location`" class="text-white text-center w-full border-b border-c-gray-4">
-            <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto">
+            <img :src="location.src" :alt="`${this.$store.state.file.title} in-game location`" class="text-white text-center w-full">
+            <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
               Credit Goes to <a target="_blank" :href="location.src_source_link" class="underline hover:font-bold text-orange-400"> {{ location.src_source }} </a>
             </div>
           </div>
           <div v-if="location.map" class="border-2 border-c-gray-4">
-            <img :src="location.map" :alt="`${this.$store.state.file.title} location on the map`" class="text-white text-center w-full border-b border-c-gray-4">
-            <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto">
+            <img :src="location.map" :alt="`${this.$store.state.file.title} location on the map`" class="text-white text-center w-full">
+            <div v-if="location.map_source" class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
               Credit Goes to <a target="_blank" :href="location.map_source_link" class="underline hover:font-bold text-orange-400"> {{ location.map_source }} </a>
             </div>
           </div>
@@ -74,12 +74,12 @@
 
 <script>
 import Breadcrumb from '../components/Breadcrumb.vue'
-export default {
-  components: {
+export default{
+  components:{
     Breadcrumb
   },
   props: ['game', 'files'],
-  methods: {
+  methods:{
     setFile(file){
       this.$store.state.file = file
       document.title = file.title

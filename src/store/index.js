@@ -5460,13 +5460,98 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "اطلاعات کمی از محل سکونت اشلی تو دست‌مون‌ـه. بر و بچ سرویس مخفی آمریکا و حتی بستگانِ اشلی، توسط تیم تجسس مورد بازجویی قرار گرفتن.",
+                "para": "اطلاعات کمی از محل سکونت اشلی تو دست‌مون‌ـه. بر و بچ سرویس مخفی آمریکا و حتی بستگانِ اشلی هم توسط تیم تجسس مورد بازجویی قرار می‌گیرن.",
                 "dir": "right"
               },
               {
-                "para": "حتی عوامل فعال هم، برای کسب هر گونه اطلاعات، مورد بازجویی قرار می‌گیرن. قضیه‌ای که دیر یا زود، و تا زمان برملاشدنِ هویتِ شخص آدم‌ربا، ادامه داره.",
+                "para": "این قضیه برای عوامل فعال هم صدق می‌کنه. کاری که دیر یا زود، و تا زمان برملاشدنِ هویتِ شخص آدم‌ربا، عملی می‌شه.",
                 "dir": "right"
               }
+            ]
+          },
+          {
+            "id": 2,
+            "src": require('../assets/img/re4/files/alert-order/alert-order.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!alert-order",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/alert-order/location/alert-order-location.webp'),
+                "map": require('../assets/img/re4/files/alert-order/map/alert-order-map.gif'),
+                "src_source_link": "https://residentevil.fandom.com/wiki/Alert_Order",
+                "src_source": "Resident Evil Wiki"
+              }
+            ],
+            "url": "alert-order",
+            "title": "Alert Order",
+            "og_content":[
+              {
+                "para": "Recently there has been information that a United States government agent is here investigating the village.",
+                "dir": "left"
+              },
+              {
+                "para": "Do not let this American agent get in contact with the prisoner.",
+                "dir": "left"
+              },
+              {
+                "para": "For those of you not yet informed, the prisoner is being held in an old house beyond the farm. We will transfer the prisoner to a more secure location in the valley when we are ready. The prisoner is to stay here until further notice. Meanwhile, do not let the American agent near the prisoner.",
+                "dir": "left"
+              },
+              {
+                "para": "We do not know how the American government found out about our village. But we are investigating.",
+                "dir": "left"
+              },
+              {
+                "para": "However, I feel that this intrusion at this particular time is not just a coincidence.",
+                "dir": "left"
+              },
+              {
+                "para": "I sense a third party other then the United States government involved here.",
+                "dir": "left"
+              },
+              {
+                "para": "My fellow men, stay alert!",
+                "dir": "left"
+              },
+              {
+                "para": "- Chief, Bitores Mendez",
+                "dir": "right"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "تازگی‌ها اطلاعاتی به دست‌مون رسیده که حاکی از اعزام یه مامور، از طرف دولت آمریکا، برای بررسی دِه ماست.",
+                "dir": "right"
+              },
+              {
+                "para": "نذارین تا این مامور آمریکایی، دستش به شخص زندانی برسه.",
+                "dir": "right"
+              },
+              {
+                "para": "برای اونایی که نمی‌دونن؛ شخص زندانی توی یه خونه‌ی قدیمی، اون طرف مزرعه، قرار داره. به وقتش هم طرف رو به منطقه‌ی امن‌تری توی دَره انتقال می‌دیم. تا اطلاع ثانوی، اون اینجا موندگاره. این وسط نذارین تا مامور آمریکایی رد شخص زندانی رو بزنه.",
+                "dir": "right"
+              },
+              {
+                "para": "نمی‌دونیم دولت آمریکا چطور دستش به این اطلاعات، از دهکده‌ی ما رسیده. ما اما به تحقیقات ادامه می‌دیم.",
+                "dir": "right"
+              },
+              {
+                "para": "اگرچه، حس می‌کنم که این مزاحمت، اون هم توی این زمان مشخص، نمی‌تونه تصادفی باشه.",
+                "dir": "right"
+              },
+              {
+                "para": "به نظر میاد که یه عامل سوم، به غیر از دولت آمریکا، قاطی ماجراست.",
+                "dir": "right"
+              },
+              {
+                "para": "مردمان من، گوش‌به‌زنگ باشین!",
+                "dir": "right"
+              },
+              {
+                "para": "- کدخدا، بیتورس مندز",
+                "dir": "left"
+              },
             ]
           },
         ]
