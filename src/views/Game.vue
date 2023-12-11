@@ -14,6 +14,7 @@
   <main class="max-w-c mx-auto">
     <div class="text-c-gray-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" v-if="!this.$store.state.isFileSelected">
       <div class="whitespace-nowrap">
+        
         Number of Files Translated => {{ this.$store.state.files.length }}
       </div>
     </div>

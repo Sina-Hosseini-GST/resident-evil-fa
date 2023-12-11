@@ -21,37 +21,21 @@
           <img class="w-2/5 min-w-c-2 mx-auto" src="./assets/img/logo/logo.png" alt="Logo image">
         </div>
         <p class="text-justify text-red-100 italic">
-          This website is constantly being updated, and this means that every time you enter, you're likely to see more CONTENT! So, stay tuned!
+          This website is constantly being updated, and this means that every time you enter REdocs, you're likely to see more CONTENT! So, stay tuned!
         </p>
         <details class="my-2 py-2 text-white border-y-8 border-double border-c-gray-8">
           <summary class="text-c-blue-3 text-center font-bold cursor-pointer">
             UPDATE LOG
           </summary>
           <ul>
-            <li>
-              <span class="text-c-blue-2">All Main Files <span class="italic">Translated</span></span> - <span class="text-c-blue-2 font-bold">RE1</span> | <span class="text-c-blue-3">Jul 15, 2023</span>
-            </li>
-            <li>
-              <span class="text-c-blue-2">All Main Files <span class="italic">Translated</span></span> - <span class="text-c-blue-2 font-bold">RE2</span> | <span class="text-c-blue-3">Jul 15, 2023</span>
-            </li>
-            <li>
-              <span class="text-c-blue-2">All Main Files <span class="italic">Translated</span></span> - <span class="text-c-blue-2 font-bold">RE3N</span> | <span class="text-c-blue-3">Aug 27, 2023</span>
-            </li>
-            <li>
-              <span class="text-c-blue-2">Translation <span class="italic">Started</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 6, 2023</span>
-            </li>
-            <li>
-              <span class="text-c-blue-2">Info on Ashley <span class="italic">translated</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 6, 2023</span>
-            </li>
-            <li>
-              <span class="text-c-blue-2">Info on Ashley <span class="italic">proofread</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 7, 2023</span>
-            </li>
-            <li>
-              <span class="text-c-blue-2">Info on Ashley <span class="italic">proofread</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 10, 2023</span>
-            </li>
-            <li>
-              <span class="text-c-blue-2">Alert Order <span class="italic">translated</span></span> - <span class="text-c-blue-2 font-bold">RE4</span> | <span class="text-c-blue-3">Dec 10, 2023</span>
-            </li>
+            <Log text='All Main Files' action='Translated' game='RE1' date='Jul 15, 2023' />
+            <Log text='All Main Files' action='Translated' game='RE2' date='Jul 15, 2023' />
+            <Log text='All Main Files' action='Translated' game='RE3N' date='Aug 27, 2023' />
+            <Log text='Translation' action='Started' game='RE4' date='Dec 6, 2023' />
+            <Log text='Info on Ashley' action='Translated' game='RE4' date='Dec 6, 2023' />
+            <Log text='Info on Ashley' action='Proofread' game='RE4' date='Dec 7, 2023' />
+            <Log text='Info on Ashley' action='Proofread' game='RE4' date='Dec 10, 2023' />
+            <Log text='Alert Order' action='Translated' game='RE4' date='Dec 10, 2023' />
             <li>
               Number of Files Translated => {{ numberOfFilesTranslated }}
             </li>
@@ -68,6 +52,7 @@
 
 <script>
 import Breadcrumb from './components/Breadcrumb.vue'
+import Log from './components/Log.vue'
 export default{
   data(){
     return{
@@ -75,7 +60,8 @@ export default{
     }
   },
   components:{
-    Breadcrumb
+    Breadcrumb,
+    Log
   },
   methods:{
     setGame(game){
