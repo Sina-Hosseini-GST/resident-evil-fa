@@ -5529,7 +5529,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "برای اونایی که نمی‌دونن؛ شخص زندانی توی یه خونه‌ی قدیمی، اون طرف مزرعه، قرار داره. به وقتش هم طرف رو به منطقه‌ی امن‌تری توی دَره انتقال می‌دیم. تا اطلاع ثانوی، اون اینجا موندگاره. این وسط نذارین تا مامور آمریکایی رد شخص زندانی رو بزنه.",
+                "para": "برای اونایی که نمی‌دونن؛ شخص زندانی توی یه خونه‌ی قدیمی، اون طرف مزرعه، قرار داره. به وقتش هم طرف رو به منطقه‌ی امن‌تری توی دَره انتقال می‌دیم. تا اطلاع ثانوی، اون اینجا موندگاره. این وسط نذارین تا مامور آمریکایی ردِ شخص زندانی رو بزنه.",
                 "dir": "right"
               },
               {
@@ -5551,9 +5551,155 @@ export default createStore({
               {
                 "para": "- کدخدا، بیتورس مندز",
                 "dir": "left"
-              },
+              }
             ]
           },
+          {
+            "id": 3,
+            "src": require('../assets/img/re4/files/about-the-blue-medallions/about-the-blue-medallions.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!about-the-blue-medallions",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/about-the-blue-medallions/location/about-the-blue-medallions-location.webp'),
+                "map": require('../assets/img/re4/files/about-the-blue-medallions/map/about-the-blue-medallions-map.gif'),
+                "src_source_link": "https://residentevil.fandom.com/wiki/About_the_Blue_Medallions",
+                "src_source": "Resident Evil Wiki"
+              }
+            ],
+            "url": "about-the-blue-medallions",
+            "title": "About the Blue Medallions",
+            "og_content":[
+              {
+                "para": "15 blue medallions...",
+                "dir": "left"
+              },
+              {
+                "para": "7 in the farm... 8 in the cemetery...",
+                "dir": "left"
+              },
+              {
+                "para": "For those of you who destroy 10 or more will be awarded...",
+                "dir": "left"
+              },
+              {
+                "para": "(The rest is illegible.)",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "۱۵ مدال آبی‌رنگ...",
+                "dir": "right"
+              },
+              {
+                "para": "۷تا تو مزرعه‌ست... ۸تا هم تو قبرستون...",
+                "dir": "right"
+              },
+              {
+                "para": "برای شماهایی که ۱۰تا مدال، یا بیشتر از این مقدار رو از بین می‌برن، جایزه در نظر گرفته می‌شه...",
+                "dir": "right"
+              },
+              {
+                "para": "(بقیه‌ش رو نمی‌شه خوند.)",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "src": require('../assets/img/re4/files/chief-s-note/chief-s-note.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!chiefs-note",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/chief-s-note/location/chief-s-note-location.webp'),
+                "map": require('../assets/img/re4/files/chief-s-note/map/chief-s-note-map.gif'),
+                "src_source_link": "https://residentevil.fandom.com/wiki/Chief%27s_Note",
+                "src_source": "Resident Evil Wiki"
+              }
+            ],
+            "url": "chief-s-note",
+            "title": "Chief's Note",
+            "og_content":[
+              {
+                "para": "As instructed by Lord Saddler, I have the agent in confinement, alive. Why keep him alive? I do not fully understand what the Lord's intentions are.",
+                "dir": "left"
+              },
+              {
+                "para": "I would, however, think he'd keep them separate; not confine them together as has been ordered.",
+                "dir": "left"
+              },
+              {
+                "para": "I don't expect Luis would trust a stranger but if by chance they did cooperate, the situation could get a bit more complicated.",
+                "dir": "left"
+              },
+              {
+                "para": "If for some reason, an unknown third party is involved, I don't think they'd let a chance like this slip by.",
+                "dir": "left"
+              },
+              {
+                "para": "But maybe it's all Lord Saddler's ploy - leaving us vulnerable so that this third party will surface, if they even exist that is...",
+                "dir": "left"
+              },
+              {
+                "para": "It's an unlikely possibility, but if a prowler is already amongst us, then our plans could be ruined.",
+                "dir": "left"
+              },
+              {
+                "para": "I guess the Lord thinks it's worth the risk, if we're able to stop whatever conspiracy is at work.",
+                "dir": "left"
+              },
+              {
+                "para": "At any rate, it's the Lord's call.",
+                "dir": "left"
+              },
+              {
+                "para": "We will trust his judgement as always.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "به دستور لرد سدلر، ماموره دستگیر شده و زنده‌ست. زنده‌نگه‌داشتن‌اش چی می‌گه؟ خیلی دقیق نگرفتم قصدِ لرد چیه.",
+                "dir": "right"
+              },
+              {
+                "para": "هرچند، من اینطوری فکر می‌کنم که لرد می‌خواد اونا از هم جدا باشن، نه اینکه طبق دستوری که داده شد، کنار هم به بند کشیده شن.",
+                "dir": "right"
+              },
+              {
+                "para": "بعید می‌دونم لوییس به غریبه جماعت اعتماد کنه، ولی اگه به هر نحوی اونا با هم همکاری داشته باشن، وضعیت یه نمور پیچیده‌تر می‌شه.",
+                "dir": "right"
+              },
+              {
+                "para": "اگه به هر دلیلی، یه عامل سوم وارد ماجرا بشه، فکر نکنم که اونا چنین فرصتی رو از دست بدن.",
+                "dir": "right"
+              },
+              {
+                "para": "شاید هم همه‌ش حقه‌ای از طرف لرد سدلر باشه، که ما رو بی‌دفاع رها کنه تا این عامل سوم خودش رو نشون بده، البته اگه حقیقت داشته باشه... ",
+                "dir": "right"
+              },
+              {
+                "para": "دور از ذهن به نظر میاد، ولی اگه یکی ما رو دنبال کرده باشه، نقشه‌هامون نقشِ بر آبه.",
+                "dir": "right"
+              },
+              {
+                "para": "حدس می‌زنم دیدگاه لرد اینطوری باشه که هر توطئه‌ای ارزشش رو داره که جلوش بایستی و خطرش رو به جون بخری.",
+                "dir": "right"
+              },
+              {
+                "para": "به هر روی، این لرد هست که تصمیم‌گیرنده‌ست.",
+                "dir": "right"
+              },
+              {
+                "para": "ما همیشه به لرد ایمان داریم.",
+                "dir": "right"
+              }
+            ]
+          }
         ]
       }
     ],
