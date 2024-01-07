@@ -34,7 +34,7 @@
         <div class="flex flex-col gap-4 location" v-for="location in this.$store.state.file.location" :key="location">
           <div v-if="location.src" class="border-2 border-c-gray-4">
             <img :src="location.src" :alt="`${this.$store.state.file.title} in-game location`" class="text-white text-center w-full">
-            <div class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
+            <div v-if="location.src_source" class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
               Credit Goes to <a target="_blank" :href="location.src_source_link" class="underline hover:font-bold text-orange-400"> {{ location.src_source }} </a>
             </div>
           </div>
