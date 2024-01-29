@@ -5778,7 +5778,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "هر آنکس که قصد دسترسی به کلیسا را دارد، در قدم اول بایستی توسط لرد سدلر تایید شود.",
+                "para": "هر آنکس که قصد دسترسی به کلیسا را دارد، در قدم اول بایستی توسط لرد سدلر مورد تایید قرار بگیرد.",
                 "dir": "right"
               },
               {
@@ -5787,6 +5787,57 @@ export default createStore({
               },
               {
                 "para": "در ضمن، خون ما در رگ‌های این مامور جاری‌ست. دیر یا زود نیز او به ما ملحق می‌شود. به محض وقوع این مهم، دیگر هیچ‌کسی به دنبال دخترک نخواهد آمد.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "src": require('../assets/img/re4/files/anonymous-letter/anonymous-letter.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!anonymous-letter",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/anonymous-letter/location/anonymous-letter-location.png'),
+                "map": require('../assets/img/re4/files/anonymous-letter/map/anonymous-letter-map.gif')
+              }
+            ],
+            "url": "anonymous-letter",
+            "title": "Anonymous Letter",
+            "og_content":[
+              {
+                "para": "There's an important item hidden in the falls. If you are able to get it, you might be able to get Ashley out of the church.",
+                "dir": "left"
+              },
+              {
+                "para": "But I'll warn you, the route to the church isn't a walk in the park by any means. They've deployed what's called an \"El Gigante\", so God bless.",
+                "dir": "left"
+              },
+              {
+                "para": "About what's been going on in your body... If I could help you, I would.",
+                "dir": "left"
+              },
+              {
+                "para": "But unfortunately it's beyond my power.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "یه آیتم مهم تو آبشار مخفی شده. اگه بتونی گیرش بیاری، احتمالا بتونی اشلی رو از کلیسا خارج بکنی.",
+                "dir": "right"
+              },
+              {
+                "para": "اما بهت بگم که مسیر کلیسا، هیچ‌جوره مثل آب خوردن نیست. اونا موجودی به نام «ال گیگانته» رو فرستادن و این یعنی خدا به همرات.",
+                "dir": "right"
+              },
+              {
+                "para": "درباره‌ی اتفاقاتی که برای بدنت افتاده... اگه کمکی از دستم ساخته بود، دریغ نمی‌کردم.",
+                "dir": "right"
+              },
+              {
+                "para": "اما متاسفانه، این از عهده‌ی من خارجه.",
                 "dir": "right"
               }
             ]
