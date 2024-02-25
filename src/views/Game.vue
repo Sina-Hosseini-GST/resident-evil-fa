@@ -55,7 +55,7 @@
             {{ og_content.para }}
           </p>
           <div class="text-center bg-white sticky bottom-0 text-black -mx-4">
-            English Localization
+            English Script
           </div>
         </div>
         <div class="flex flex-col gap-4 tr-content">

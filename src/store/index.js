@@ -5770,7 +5770,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "به هر قیمتی که شده باید جلوی وقوع این امر را بگیریم.",
+                "para": "به هر قیمتی باید جلوی وقوع این امر را بگیریم.",
                 "dir": "right"
               },
               {
@@ -5838,6 +5838,188 @@ export default createStore({
               },
               {
                 "para": "اما متاسفانه، این از عهده‌ی من خارجه.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "src": require('../assets/img/re4/files/sera-and-the-3rd-party/sera-and-the-3rd-party.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!sera-and-the-3rd-party",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/sera-and-the-3rd-party/location/sera-and-the-3rd-party-location.png'),
+                "map": require('../assets/img/re4/files/sera-and-the-3rd-party/map/sera-and-the-3rd-party-map.gif')
+              }
+            ],
+            "url": "sera-and-the-3rd-party",
+            "title": "Sera and the 3rd Party",
+            "og_content":[
+              {
+                "para": "The whereabouts of Sera are still unknown.",
+                "dir": "left"
+              },
+              {
+                "para": "Most likely he's using an old secret passage taught to him by his grandfather who used to hunt in this region long ago.",
+                "dir": "left"
+              },
+              {
+                "para": "I'm pretty certain that he's hiding our property somewhere in the forest.",
+                "dir": "left"
+              },
+              {
+                "para": "If his grandfather was still alive, I would have used him to find Sera...",
+                "dir": "left"
+              },
+              {
+                "para": "But how did he find out about the egg injected into his body?",
+                "dir": "left"
+              },
+              {
+                "para": "- And the fact that he was able to remove it before it hatched is concerning.",
+                "dir": "left"
+              },
+              {
+                "para": "Another factor that concerns me is that Sera escaped with our property just before the American agent arrived. I don't believe that was just a coincidence.",
+                "dir": "left"
+              },
+              {
+                "para": "There has to be another player involved in this.",
+                "dir": "left"
+              },
+              {
+                "para": "In order to settle this whole situation, we have to capture Sera and wait for the effects of the drug to wear off before we inject him with another egg.",
+                "dir": "left"
+              },
+              {
+                "para": "Once this is done, whoever is behind all of this will surface. Nobody shall interfere with our plans. Those who do shall suffer severe consequences.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "مشخص نیست لوییس کجاست.",
+                "dir": "right"
+              },
+              {
+                "para": "به احتمال زیاد یه مسیر قدیمی و مخفی، که از پدربزرگش یاد گرفته رو، انتخاب کرده؛ کسی که تو گذشته‌های دور برای شکار راهیِ اینجا می‌شده.",
+                "dir": "right"
+              },
+              {
+                "para": "بی‌بروبرگرد می‌گم که اون، سرمایه‌ی ما رو یه جا تو جنگل مخفی کرده.",
+                "dir": "right"
+              },
+              {
+                "para": "اگه پدربزرگش هنوز زنده بود، می‌فرستادمش دنبال سِرا...",
+                "dir": "right"
+              },
+              {
+                "para": "آخه از کجا باید بفهمه که تخمِ ویروس به بدنش تزریق شده؟",
+                "dir": "right"
+              },
+              {
+                "para": "- این قضیه که تونسته قبلِ آزادسازی ویروس، اون رو از بدنش خارج کنه نگران‌کننده‌ست.",
+                "dir": "right"
+              },
+              {
+                "para": "قضیه‌ی دیگه‌ای که نگرانم می‌کنه اینه که درست قبل از رسیدنِ اون مامور آمریکایی، سرا به همراه دارایی ما قسر در می‌ره. باور ندارم که این همه‌ش یه اتفاق باشه.",
+                "dir": "right"
+              },
+              {
+                "para": "باید پای یکی دیگه در میون باشه.",
+                "dir": "right"
+              },
+              {
+                "para": "مجبوریم برای بهبود اوضاع، سرا رو دستگیر کنیم و قبلِ تزریق تخم دیگه‌ای از ویروس بهش، منتظر ازبین‌رفتنِ تاثیرات دارو بمونیم.",
+                "dir": "right"
+              },
+              {
+                "para": "به محض انجام این کار، هر کی که پشت قضیه‌ست خودش رو نشون می‌ده. هیچکی نمی‌ره تو عملی‌کردنِ نقشه‌هامون دخالت کنه. اونایی هم که قاطی ماجرا بشن، به سرنوشت وحشتناکی دچار می‌شن.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "src": require('../assets/img/re4/files/two-routes/two-routes.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!two-routes",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/two-routes/location/two-routes-location.png'),
+                "map": require('../assets/img/re4/files/two-routes/map/two-routes-map.gif')
+              }
+            ],
+            "url": "two-routes",
+            "title": "Two Routes",
+            "og_content":[
+              {
+                "para": "Just a while ago, I was informed by Lord Saddler that our men had shot down a United States military helicopter.",
+                "dir": "left"
+              },
+              {
+                "para": "There shouldn't be any more outside interference for a while now.",
+                "dir": "left"
+              },
+              {
+                "para": "Unless the United States government determines who the traitor is, they can only initiate very small covert operations.",
+                "dir": "left"
+              },
+              {
+                "para": "We must use this time to our advantage and recapture the girl.",
+                "dir": "left"
+              },
+              {
+                "para": "The two Americans can only get out of our territory by using one of two routes.",
+                "dir": "left"
+              },
+              {
+                "para": "This is where we'll stop them.",
+                "dir": "left"
+              },
+              {
+                "para": "We shall make use of our forces to the greatest degree.",
+                "dir": "left"
+              },
+              {
+                "para": "We will deploy a large number of Ganados in one of the routes to ensure that they do not slip by us. For the other route we shall leave the task to El Gigante. Whichever route they take, the agent will never leave here alive. Not with the girl at least.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "همین چند وقت پیش توسط لرد سدلر مطلع شدم که مردمان ما، هلیکوپترِ نظامی آمریکا رو از کار انداختن.",
+                "dir": "right"
+              },
+              {
+                "para": "برای یه مدتی، دیگه نباید پای یکی دیگه به ماجرا کشیده بشه.",
+                "dir": "right"
+              },
+              {
+                "para": "در صورتی که تشخیص داده نشه کی دست به خیانت زده، دولت آمریکا فقط می‌تونه به یه سری عملیات سریِ ریز اکتفا کنه.",
+                "dir": "right"
+              },
+              {
+                "para": "باید از وقتی که در اختیار داریم به نفع خودمون استفاده کنیم و دختره رو پس بگیریم.",
+                "dir": "right"
+              },
+              {
+                "para": "این دو آمریکایی فقط  به واسطه‌ی یکی از این دو مسیر می‌تونن از قلمروی ما خارج بشن.",
+                "dir": "right"
+              },
+              {
+                "para": "و اینجاست که گیرشون می‌ندازیم.",
+                "dir": "right"
+              },
+              {
+                "para": "تا حد امکان هم از نیروهامون بهره می‌بریم.",
+                "dir": "right"
+              },
+              {
+                "para": "توی یکی از این دو مسیر، کلی گانادو رو راهی می‌کنیم تا مطمئن شیم اونا از دست ما قسر در نمی‌رن. برای اون یکی مسیر هم، کارو به ال گیگانته می‌سپریم. هر مسیری هم که انتخاب کنن، ماموره، حداقل با دخترک، زنده ازش بیرون نمیاد.",
                 "dir": "right"
               }
             ]
