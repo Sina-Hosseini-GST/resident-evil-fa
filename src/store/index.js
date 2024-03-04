@@ -5283,7 +5283,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "این گیاه تماما توسط یک سیستمِ جلوگیری از شیوع، تحت کنترل است. به هنگام تشخیص آلودگی در اتاق درمان یا استخرِ نمونه‌ی تجزیه‌شده، گیاه خودبخود و به منظور ایزوله‌سازی، قرنطینه می‌شود. در این حالت، باید از راهنمای موجود برای بازکردن آن استفاده کرد. اگر آلودگی از حد مجاز خارج شود، کل سیستم بطور خودکار به انجام قرنطینه می‌پردازد. در این هنگام، می‌بایست در گیاه باقی ماند و منتظر دستورات پیاپی شد. افرادی که بدون اجازه، تاسیسات را ترک می‌کنند، از تبعات حادی رنج خواهند برد.",
+                "para": "این گیاه تماما توسط یک سیستمِ جلوگیری از شیوع، تحت کنترل است. به هنگام تشخیص آلودگی در اتاق درمان یا استخرِ نمونه‌ی تجزیه‌شده، گیاه خودبخود و به منظور ایزوله‌سازی، قرنطینه می‌شود. در این حالت، باید از راهنمای موجود برای بازکردن آن استفاده کرد. اگر آلودگی از حد مجاز خارج شود، کل سیستم به طور خودکار به انجام قرنطینه می‌پردازد. در این هنگام، می‌بایست در گیاه باقی ماند و منتظر دستورات پیاپی شد. افرادی که بدون اجازه، تاسیسات را ترک می‌کنند، از تبعات حادی رنج خواهند برد.",
                 "dir": "right"
               }
             ]
@@ -5999,7 +5999,7 @@ export default createStore({
                 "dir": "right"
               },
               {
-                "para": "در صورتی که تشخیص داده نشه کی دست به خیانت زده، دولت آمریکا فقط می‌تونه به یه سری عملیات سریِ ریز اکتفا کنه.",
+                "para": "در صورتی که تشخیص داده نشه کی دست به خیانت زده، دولت آمریکا فقط می‌تونه دست به اقدام یه سری عملیات سریِ ریز بزنه.",
                 "dir": "right"
               },
               {
@@ -6020,6 +6020,81 @@ export default createStore({
               },
               {
                 "para": "توی یکی از این دو مسیر، کلی گانادو رو راهی می‌کنیم تا مطمئن شیم اونا از دست ما قسر در نمی‌رن. برای اون یکی مسیر هم، کارو به ال گیگانته می‌سپریم. هر مسیری هم که انتخاب کنن، ماموره، حداقل با دخترک، زنده ازش بیرون نمیاد.",
+                "dir": "right"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "src": require('../assets/img/re4/files/village-s-last-defense/village-s-last-defense.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!villages-last-defense",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/village-s-last-defense/location/village-s-last-defense-location.png'),
+                "map": require('../assets/img/re4/files/village-s-last-defense/map/village-s-last-defense-map.gif')
+              }
+            ],
+            "url": "village-s-last-defense",
+            "title": "Village's Last Defense",
+            "og_content":[
+              {
+                "para": "I clearly underestimated the American agent's capability. He's still alive.",
+                "dir": "left"
+              },
+              {
+                "para": "I thought that we could wait until the egg hatched, but at this rate, he could destroy the entire village before it does. We must take care of this nuisance.",
+                "dir": "left"
+              },
+              {
+                "para": "We shall change our priorities - for the time being, we will cease our hunt for Luis and ambush the two Americans.",
+                "dir": "left"
+              },
+              {
+                "para": "There is a building used to enlighten betrayers just beyond the point where you get off the lift.",
+                "dir": "left"
+              },
+              {
+                "para": "It's a perfect place for ambushing them.",
+                "dir": "left"
+              },
+              {
+                "para": "If all else fails, they still would need to face me in order to get past the last gate that leads out of the village.",
+                "dir": "left"
+              },
+              {
+                "para": "For only before my sight will the gate open.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "توانمندی مامور آمریکا را واضحا دست کم گرفته بودم. او همچنان نفس می‌کشد.",
+                "dir": "right"
+              },
+              {
+                "para": "فکر کردم می‌توان در انتظار آزادسازی ویروس بود، اما او قادر است قبل از این امر، تمامیِ دهکده را نابود سازد. باید از پس این مایه‌ی دردسر بربیاییم.",
+                "dir": "right"
+              },
+              {
+                "para": "اولویت‌هایمان را تغییر می‌دهیم و موقتا از گیرانداختنِ لوییس دست می‌کشیم تا این دو آمریکایی را به دام بیندازیم.",
+                "dir": "right"
+              },
+              {
+                "para": "هنگام پیاده‌شدن از کابین و کمی آن طرف‌تر، بنایی برای شیرفهم‌کردن خیانت‌کاران وجود دارد.",
+                "dir": "right"
+              },
+              {
+                "para": "این، بهترین منطقه برای حمله‌ی مخفیانه به آنهاست.",
+                "dir": "right"
+              },
+              {
+                "para": "اگر به بن‌بست بخوریم، آن‌ها همچنان باید با من روبه‌رو شوند تا از دروازه‌ی نهایی، که راه خروج از دهکده است گذر کنند.",
+                "dir": "right"
+              },
+              {
+                "para": "و این قدرت بینایی من است که دروازه را باز می‌کند.",
                 "dir": "right"
               }
             ]

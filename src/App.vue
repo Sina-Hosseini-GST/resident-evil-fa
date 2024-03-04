@@ -46,6 +46,9 @@
             <Log text='Closure of the Church' action='Proofread' game='RE4' date='Fed 25, 2024' />
             <Log text='Sera and the 3rd Party' action='Translated' game='RE4' date='Fed 25, 2024' />
             <Log text='Two Routes' action='Translated' game='RE4' date='Fed 25, 2024' />
+            <Log text='Two Routes' action='Proofread' game='RE4' date='Mar 4, 2024' />
+            <Log text='Security Manual' action='Proofread' game='RE3' date='Mar 4, 2024' />
+            <Log text="Village's Last Defense" action='Translated' game='RE4' date='Mar 4, 2024' />
             <li>
               Number of Files Translated => {{ numberOfFilesTranslated }}
             </li>
