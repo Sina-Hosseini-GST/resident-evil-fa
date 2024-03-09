@@ -6098,6 +6098,73 @@ export default createStore({
                 "dir": "right"
               }
             ]
+          },
+          {
+            "id": 10,
+            "src": require('../assets/img/re4/files/capture-luis-sera/capture-luis-sera.png'),
+            "src_source": "Evil Resource",
+            "src_source_link": "https://www.evilresource.com/resident-evil-4/files#!capture-luis-sera",
+            "location": [
+              {
+                "txt": "Location",
+                "src": require('../assets/img/re4/files/capture-luis-sera/location/capture-luis-sera-location.png'),
+                "map": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map.gif')
+              }
+            ],
+            "url": "capture-luis-sera",
+            "title": "Capture Luis Sera",
+            "og_content":[
+              {
+                "para": "I have confirmation that Sera has entered the castle.",
+                "dir": "left"
+              },
+              {
+                "para": "Why would he return during his escape leaves me to question his motives. But we must seize this moment and capture him.",
+                "dir": "left"
+              },
+              {
+                "para": "We will get the other two Americans after we apprehend Sera.",
+                "dir": "left"
+              },
+              {
+                "para": "It appears he took some vaccines when he stole our \"sample\". The vaccines we can do without but we must retrieve the \"sample\" for it is our life blood.",
+                "dir": "left"
+              },
+              {
+                "para": "I feel there is somebody else or some other group involved in this whole affair.",
+                "dir": "left"
+              },
+              {
+                "para": "If the \"sample\" were to get into the hands of that other entity, the world which we seek to create will not come. We must apprehend Sera as quickly as possible.",
+                "dir": "left"
+              }
+            ],
+            "fa_content":[
+              {
+                "para": "مدارکی دارم که نشان می‌دهد سرا به قصر ورود پیدا کرده.",
+                "dir": "right"
+              },
+              {
+                "para": "دلیل برگشتنش آن هم به هنگام فرار، من را در رابطه با انگیزه‌اش به فکر فرو برده. در هر صورت، باید فرصت را غنیمت بشماریم و او را گیر بیندازیم.",
+                "dir": "right"
+              },
+              {
+                "para": "آن دوتا آمریکایی را هم بعد از دستگیرکردنِ سرا گیر می‌اندازیم.",
+                "dir": "right"
+              },
+              {
+                "para": "ظاهرا وقتی که او «نمونه‌ی آزمایشگاهی» را از ما می‌دزدد، به تعدادی واکسن دسترسی پیدا می‌کند. ما از آن‌ها بی‌نیازیم، اما بازپس‌گیری این «نمونه»، به عنوان شاهرگ حیاتی‌مان، الزامی‌ست.",
+                "dir": "right"
+              },
+              {
+                "para": "احساس می‌کنم پای یک شخص یا گروهی جدید به ماجرا باز شده.",
+                "dir": "right"
+              },
+              {
+                "para": "اگر قرار باشد این «نمونه‌ی آزمایشگاهی» به دست دیگران راه یابد، دنیایی که ما خواهان تشکیل آن هستیم تحقق پیدا نمی‌کند. ما باید سرا را با سرعت هر چه تمام دستگیر کنیم.",
+                "dir": "right"
+              }
+            ]
           }
         ]
       }
