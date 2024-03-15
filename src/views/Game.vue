@@ -14,7 +14,6 @@
   <main class="max-w-c mx-auto">
     <div class="text-c-gray-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" v-if="!this.$store.state.isFileSelected">
       <div class="whitespace-nowrap">
-        
         Number of Files Translated => {{ this.$store.state.files.length }}
       </div>
     </div>
@@ -39,7 +38,18 @@
             </div>
           </div>
           <div v-if="location.map" class="border-2 border-c-gray-4">
-            <img :src="location.map" :alt="`${this.$store.state.file.title} location on the map`" class="text-white text-center w-full">
+            <div v-if="typeof location.map == 'object'" class="relative">
+              <button class="absolute left-0 inset-y-0 w-10 transition-opacity hover:opacity-60" @click="changeMapView(- 1)">
+                <svg class="w-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" color="#ffffff" viewBox="7 4 9 16"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              </button>
+              <img :src="location.map.far" :alt="`${this.$store.state.file.title} far-view location on the map`" class="text-white text-center w-full hidden map-view">
+              <img :src="location.map.default" :alt="`${this.$store.state.file.title} location on the map`" class="text-white text-center w-full map-view">
+              <img :src="location.map.near" :alt="`${this.$store.state.file.title} near-view location on the map`" class="text-white text-center w-full hidden map-view">
+              <button class="absolute right-0 inset-y-0 w-10 transition-opacity hover:opacity-60" @click="changeMapView(+ 1)">
+                <svg class="w-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" color="#ffffff" viewBox="8 4 9 16"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              </button>
+            </div>
+            <img v-else :src="location.map" :alt="`${this.$store.state.file.title} location on the map`" class="text-white text-center w-full">
             <div v-if="location.map_source" class="text-yellow-200 text-center whitespace-nowrap overflow-auto border-t border-c-gray-4">
               Credit Goes to <a target="_blank" :href="location.map_source_link" class="underline hover:font-bold text-orange-400"> {{ location.map_source }} </a>
             </div>
@@ -64,7 +74,7 @@
               {{ tr_content.para }}
             </p>
             <div class="text-center bg-white sticky bottom-0 text-black [text-shadow:0_0_black] -mx-4">
-              ترجمه‌ی فارسی
+              ترجمۀ فارسی
             </div>
           </div>
         </div>
@@ -76,24 +86,31 @@
 <script>
 import Breadcrumb from '../components/Breadcrumb.vue'
 export default{
-  components:{
+  data(){
+    return{
+      mapViewIndex: 1,
+      mapViewArray: document.getElementsByClassName('map-view')
+    }
+  },
+  components: {
     Breadcrumb
   },
   props: ['game', 'files'],
-  methods:{
-    setFile(file){
+  methods: {
+    setFile(file) {
+      this.mapViewIndex = 1
       this.$store.state.file = file
       document.title = file.title
-      this.$store.state.isFileSelected= true
+      this.$store.state.isFileSelected = true
     },
-    setRoute(){
+    setRoute() {
       for(let i=0; i<this.$store.state.games.length; i++){
         if(this.$store.state.games[i].url == this.$route.params.gameUrl){
           this.$store.state.isGameSelected = true
           this.$store.state.game = this.$store.state.games[i]
           document.title = `${this.$store.state.game.title} Files`
           this.$store.state.files = this.$store.state.games[i].files
-          this.$store.state.isFileSelected= false
+          this.$store.state.isFileSelected = false
           this.$store.state.file = {}
         }
       }
@@ -101,12 +118,29 @@ export default{
         if(this.$store.state.files[i].url == this.$route.params.fileUrl){
           this.$store.state.file = this.$store.state.files[i]
           document.title = this.$store.state.file.title
-          this.$store.state.isFileSelected= true
+          this.$store.state.isFileSelected = true
         }
       }
+    },
+    changeMapView(n) {
+      this.mapViewIndex += n
+      this.showMapView(this.mapViewIndex)
+    },
+    showMapView(n) {
+      this.mapViewIndex = n
+      if (this.mapViewIndex == - 1) {
+        this.mapViewIndex = 2
+      }
+      if (this.mapViewIndex == 3) {
+        this.mapViewIndex = 0
+      }
+      for (let i = 0; i < this.mapViewArray.length; i++) {
+        this.mapViewArray[i].classList.add('hidden')
+      }
+      this.mapViewArray[this.mapViewIndex].classList.remove('hidden')
     }
   },
-  mounted(){
+  mounted() {
     this.setRoute()
     window.addEventListener('popstate', () => {
       this.setRoute()

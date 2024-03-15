@@ -73,41 +73,41 @@ export default{
       numberOfFilesTranslated: 0
     }
   },
-  components:{
+  components: {
     Breadcrumb,
     Log
   },
   methods:{
-    setGame(game){
-      this.$store.state.isGameSelected= true
+    setGame(game) {
+      this.$store.state.isGameSelected = true
       this.$store.state.game = game
       this.$store.state.files = game.files
       document.title = `${game.title} Files`
-      this.$store.state.isFileSelected= false
+      this.$store.state.isFileSelected = false
       this.$store.state.file = {}
     },
-    setRoute(){
-      for(let i=0; i<this.$store.state.games.length; i++){
+    setRoute() {
+      for(let i=0; i<this.$store.state.games.length; i++) {
         if(this.$store.state.games[i].url == this.$route.params.gameUrl){
           this.$store.state.isGameSelected = true
           this.$store.state.game = this.$store.state.games[i]
           document.title = `${this.$store.state.game.title} Files`
           this.$store.state.files = this.$store.state.games[i].files
-          this.$store.state.isFileSelected= false
+          this.$store.state.isFileSelected = false
           this.$store.state.file = {}
         }
       }
-      if(this.$route.fullPath == '/'){
+      if(this.$route.fullPath == '/') {
         this.$store.state.isGameSelected = false
         this.$store.state.game = {}
         this.$store.state.files = []
-        this.$store.state.isFileSelected= false
+        this.$store.state.isFileSelected = false
         document.title = 'REdocs'
       }
     }
   },
-  mounted(){
-    for(let i=0; i<this.$store.state.games.length; i++){
+  mounted() {
+    for(let i=0; i<this.$store.state.games.length; i++) {
       const game = this.$store.state.games[i]
       this.numberOfFilesTranslated += game.files.length
     }
