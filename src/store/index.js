@@ -5477,14 +5477,12 @@ export default createStore({
             "location": [
               {
                 "txt": "Location",
-                "src": require('../assets/img/re4/files/alert-order/location/alert-order-location.webp'),
+                "src": require('../assets/img/re4/files/alert-order/location/alert-order-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
-                },
-                "src_source_link": "https://residentevil.fandom.com/wiki/Alert_Order",
-                "src_source": "Resident Evil Wiki"
+                  "far": require('../assets/img/re4/files/alert-order/map/alert-order-map-far.png'),
+                  "default": require('../assets/img/re4/files/alert-order/map/alert-order-map-default.png'),
+                  "near": require('../assets/img/re4/files/alert-order/map/alert-order-map-near.png')
+                }
               }
             ],
             "url": "alert-order",
@@ -5566,14 +5564,12 @@ export default createStore({
             "location": [
               {
                 "txt": "Location",
-                "src": require('../assets/img/re4/files/about-the-blue-medallions/location/about-the-blue-medallions-location.webp'),
+                "src": require('../assets/img/re4/files/about-the-blue-medallions/location/about-the-blue-medallions-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
-                },
-                "src_source_link": "https://residentevil.fandom.com/wiki/About_the_Blue_Medallions",
-                "src_source": "Resident Evil Wiki"
+                  "far": require('../assets/img/re4/files/about-the-blue-medallions/map/about-the-blue-medallions-map-far.png'),
+                  "default": require('../assets/img/re4/files/about-the-blue-medallions/map/about-the-blue-medallions-map-default.png'),
+                  "near": require('../assets/img/re4/files/about-the-blue-medallions/map/about-the-blue-medallions-map-near.png')
+                }
               }
             ],
             "url": "about-the-blue-medallions",
@@ -5623,14 +5619,12 @@ export default createStore({
             "location": [
               {
                 "txt": "Location",
-                "src": require('../assets/img/re4/files/chief-s-note/location/chief-s-note-location.webp'),
+                "src": require('../assets/img/re4/files/chief-s-note/location/chief-s-note-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
-                },
-                "src_source_link": "https://residentevil.fandom.com/wiki/Chief%27s_Note",
-                "src_source": "Resident Evil Wiki"
+                  "far": require('../assets/img/re4/files/chief-s-note/map/chief-s-note-map-far.png'),
+                  "default": require('../assets/img/re4/files/chief-s-note/map/chief-s-note-map-default.png'),
+                  "near": require('../assets/img/re4/files/chief-s-note/map/chief-s-note-map-near.png')
+                }
               }
             ],
             "url": "chief-s-note",
@@ -5722,9 +5716,9 @@ export default createStore({
                 "txt": "Location",
                 "src": require('../assets/img/re4/files/closure-of-the-church/location/closure-of-the-church-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
+                  "far": require('../assets/img/re4/files/closure-of-the-church/map/closure-of-the-church-map-far.png'),
+                  "default": require('../assets/img/re4/files/closure-of-the-church/map/closure-of-the-church-map-default.png'),
+                  "near": require('../assets/img/re4/files/closure-of-the-church/map/closure-of-the-church-map-near.png')
                 }
               }
             ],
@@ -5817,9 +5811,9 @@ export default createStore({
                 "txt": "Location",
                 "src": require('../assets/img/re4/files/anonymous-letter/location/anonymous-letter-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
+                  "far": require('../assets/img/re4/files/anonymous-letter/map/anonymous-letter-map-far.png'),
+                  "default": require('../assets/img/re4/files/anonymous-letter/map/anonymous-letter-map-default.png'),
+                  "near": require('../assets/img/re4/files/anonymous-letter/map/anonymous-letter-map-near.png')
                 }
               }
             ],
@@ -5872,9 +5866,9 @@ export default createStore({
                 "txt": "Location",
                 "src": require('../assets/img/re4/files/sera-and-the-3rd-party/location/sera-and-the-3rd-party-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
+                  "far": require('../assets/img/re4/files/sera-and-the-3rd-party/map/sera-and-the-3rd-party-map-far.png'),
+                  "default": require('../assets/img/re4/files/sera-and-the-3rd-party/map/sera-and-the-3rd-party-map-default.png'),
+                  "near": require('../assets/img/re4/files/sera-and-the-3rd-party/map/sera-and-the-3rd-party-map-near.png')
                 }
               }
             ],
@@ -5975,9 +5969,9 @@ export default createStore({
                 "txt": "Location",
                 "src": require('../assets/img/re4/files/two-routes/location/two-routes-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
+                  "far": require('../assets/img/re4/files/two-routes/map/two-routes-map-far.png'),
+                  "default": require('../assets/img/re4/files/two-routes/map/two-routes-map-default.png'),
+                  "near": require('../assets/img/re4/files/two-routes/map/two-routes-map-near.png')
                 }
               }
             ],
@@ -6062,9 +6056,9 @@ export default createStore({
                 "txt": "Location",
                 "src": require('../assets/img/re4/files/village-s-last-defense/location/village-s-last-defense-location.png'),
                 "map": {
-                  "far": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-far.png'),
-                  "default": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-default.png'),
-                  "near": require('../assets/img/re4/files/capture-luis-sera/map/capture-luis-sera-map-near.png')
+                  "far": require('../assets/img/re4/files/village-s-last-defense/map/village-s-last-defense-map-far.png'),
+                  "default": require('../assets/img/re4/files/village-s-last-defense/map/village-s-last-defense-map-default.png'),
+                  "near": require('../assets/img/re4/files/village-s-last-defense/map/village-s-last-defense-map-near.png')
                 }
               }
             ],
