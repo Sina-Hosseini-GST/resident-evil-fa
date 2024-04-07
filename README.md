@@ -1,4 +1,4 @@
-# Passion Projects | _Resident Evil_
+# Passion Projects | _REdocs_
 ![screencapture-re-docs-github-io-2023-11-30-18_42_37](sample.png)
 **Development** => Work of mine  
 **Design** => Work of mine  
