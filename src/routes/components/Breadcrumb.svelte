@@ -12,7 +12,7 @@
     <span>
       {#if game}
         <span class="text-c-red">
-          {game.title}
+          {game.shortTitle}
         </span>
         {:else}
           <i class="text-c-green whitespace-nowrap first-letter:font-bold underline underline-offset-4 decoration-dashed">
@@ -27,7 +27,7 @@
       </span>
       <Arrow />
       <span class="text-c-green whitespace-nowrap first-letter:font-bold underline underline-offset-4 decoration-dashed">
-        <i v-if="file.title">
+        <i>
           {#if file}
             {file.title}
             {:else}
