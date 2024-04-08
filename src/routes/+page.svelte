@@ -23,8 +23,8 @@
     <ul class="flex items-center flex-nowrap overflow-auto gap-6 px-6 h-16">
       {#each $gameStore as game}
         <li class="h-full items-center not-last-child:after:content-c not-last-child:after:ml-6 not-last-child:after:text-white flex">
-          <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" title={game.name} href={game.url}>
-            {game.title}
+          <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" title={game.title} href={game.url}>
+            {game.shortTitle}
           </a>
         </li>
       {/each}

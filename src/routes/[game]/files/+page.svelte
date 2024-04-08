@@ -50,7 +50,7 @@
 {/each}
 
 <main class="max-w-c mx-auto">
-  <div class="text-c-gray-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+  <div class="text-c-gray-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap">
     Number of Files Translated => {numberOfFilesTranslated}
   </div>
 </main>
