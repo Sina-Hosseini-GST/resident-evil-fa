@@ -146,8 +146,8 @@
           <div class="flex flex-col gap-4 content">
             <div class="flex flex-col gap-4 text-white og-content">
               {#each file.originalContent as content}
-                <p style={`text-align: ${content.dir}`}>
-                  {content.para}
+                <p style={`text-align: ${content.paragraphDirection}`}>
+                  {content.paragraph}
                 </p>
               {/each}
               <div class="text-center bg-white sticky bottom-0 text-black -mx-4">
@@ -157,8 +157,8 @@
             <div class="flex flex-col gap-4 tr-content">
               <div class="flex flex-col gap-4 text-white c font-c-2 leading-c-2 text-c-2 c-2 tracking-c-2 fa-content">
                 {#each file.farsiContent as content}
-                  <p style={`text-align: ${content.dir}`}>
-                    {content.para}
+                  <p style={`text-align: ${content.paragraphDirection}`}>
+                    {content.paragraph}
                   </p>
                 {/each}
                 <div class="text-center bg-white sticky bottom-0 text-black [text-shadow:0_0_black] -mx-4">

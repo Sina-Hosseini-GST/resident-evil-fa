@@ -78,6 +78,7 @@
         <Log text='Sera and the 3rd Party' action='Proofread' game='RE4' date='Apr 8, 2024' />
         <Log text='About the Blue Medallions' action='Proofread' game='RE4' date='Apr 8, 2024' />
         <Log text='Alert Order' action='Proofread' game='RE4' date='Apr 8, 2024' />
+        <Log text='Target Practice' action='Translated' game='RE4' date='Apr 9, 2024' />
         <li>
           Number of Files Translated => {numberOfFilesTranslated}
         </li>
