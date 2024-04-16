@@ -1459,7 +1459,7 @@ const gameStore = writable([
         ],
         farsiContent: [
           {
-            paragraph: "همونطور که توی گزارش قبلی گفته بودم، یه سری خصیصه‌های مشترک توی سلول‌های گیاه مشاهده می‌شه، گیاهی که توسط ویروس تایرنت آلوده شده. ما حتی از طریق یه سری آزمایش، متوجه یه واقعیت جالب شدیم؛",
+            paragraph: "همونطور که توی گزارش قبلی گفته بودم، یه سری خصیصه‌های مشترک توی سلول‌های گیاه مشاهده می‌شه، گیاهی که توسط ویروس تایرنت آلوده شده. ما حتی از طریق یه سری آزمایش، متوجه یه واقعیت جالب شدیم.",
             paragraphDirection: "right"
           },
           {
@@ -6337,6 +6337,149 @@ const gameStore = writable([
           {
             paragraph: "توجه: مجموعه درب بطری‌ها، از صفحه‌ی «کلیدها/گنج‌ها» قابل مشاهده‌ست.",
             paragraphDirection: "center"
+          }
+        ]
+      },
+      {
+        id: 12,
+        fileImageUrl: '/img/re4/files/luis-memo/luis-memo.png',
+        fileImageSource: 'Evil Resource',
+        fileImageSourceUrl: "https://www.evilresource.com/resident-evil-4/files#!luis-memo",
+        location: [
+          {
+            text: "Location",
+            locationImageUrl: '/img/re4/files/luis-memo/location/luis-memo-location.png',
+            mapImageUrl: {
+              far: '/img/re4/files/luis-memo/map/luis-memo-map-far.png',
+              default: '/img/re4/files/luis-memo/map/luis-memo-map-default.png',
+              near: '/img/re4/files/luis-memo/map/luis-memo-map-near.png'
+            }
+          }
+        ],
+        url: "/luis-memo",
+        title: "Luis' Memo",
+        originalContent: [
+          {
+            paragraph: "There are some parasites that have the ability to control their hosts.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "It's basic knowledge among biologists but not much is known as to how the parasites do it.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Studying these parasites specifically might reveal some clues to as to how the powers of the Las Plagas work. And perhaps provide more insight on the victims of the Las Plagas, the Los Ganados.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Here is a list of some parasites that have the ability to manipulate the behavioral patterns of their host.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Dicrocoelium",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Once the larvae of this parasite migrates to the ant's esophagus, it alters the behavior of the ant. When the temperature drops in the evening, the infected ant climbs to the top of a plant and clamps onto a leaf using its mandible.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "It stays there immobile until the next morning, placing the ant where it's most vulnerable to be eaten by a browsing herbivore such as sheep.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "One could conclude that the parasite is manipulating the host's behavior to make its way into the body of its definitive host.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Galactosomum",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "The larvae of this parasite makes its home inside the brain of a fish such as the yellowtail and the parrot bass. Once infected, the fish make their way up to the water's surface where they'll swim until eaten by seabirds.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Once again, the peculiar behavior can only be explained by the parasite's desire to get into the bodies of the seabirds.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Leucochlordium",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "This parasite's sporocysts develop in the snail's tentacles. The sporocysts are vivid in color and pulsate continually somewhat like a worm.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Surprisingly the infected snail makes its way to the top of a plant where it is more visible to the eyes of birds, therefore more likely to be eaten.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Once eaten by a bird, the parasite will complete its metamorphosis into an adult.",
+            paragraphDirection: "left"
+          }
+        ],
+        farsiContent: [
+          {
+            paragraph: "انگل‌هایی وجود دارد که کنترلِ میزبان‌هایش، از قابلیت‌های آن به شمار می‌رود.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "این مهم، دانش پایه‌ی زیست‌شناسان به حساب می‌آید، در حالی که چگونگی انجام آن توسط این انگل، چندان مشخص نیست.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "مطالعه بر روی این انگل، مشخصا می‌تواند از چگونگی سازوکارِ «لاس پلاگاس» پرده بردارد؛ امری که شاید از قربانی‌های «لاس پلاگاس»، که «لاس گانادو» نیز نام دارند، اطلاعات بیشتری در اختیارمان بگذارد.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "چند انگلی که می‌توانند الگوهای رفتاری میزبانان‌شان را دستکاری کنند، به شرح زیرند:",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "دیکروسلیوم",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "آنگاه که کرم‌های انگل فوق، به مریِ مورچه برسد، رفتار آن را تغییر می‌دهند. به هنگام کاهش دمای غروب نیز، مورچه‌ی آلوده خود را به بالای گیاه رسانده و به کمک فکش، خود را از برگ آویزان می‌کند.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "او تا صبح روز بعد، بی‌حرکت باقی مانده و در جایگاهی آسیب‌پذیر در مقابل جانورانِ گیاه‌خواری مثل گوسفند، قرار می‌گیرد.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "می‌توان اینگونه نتیجه گرفت که این انگل، برای ورود به بدن میزبان نهایی‌اش، رفتار او را تغییر می‌دهد.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "گالاکتوسوموم",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "کرم‌های این انگل، در مغزِ ماهی‌هایی همچون دُم‌زرد یا پرت‌باس، جا خوش می‌کنند. به محض آلوده‌شدن ماهی نیز، او خود را به سطح آب می‌رساند، جایی که بعد از شناکردن، طعمه‌ی پرندگان دریایی قرار می‌گیرد.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "لازم به ذکر است که این رفتار عجیب برای انتخاب پرندگان دریایی را، تنها می‌توان با امیالِ انگل فوق توجه کرد.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "لوککلوردیِم",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "کرم این انگل در شاخک حلزون، تکامل پیدا می‌کند. این کرم‌ها، رنگِ زنده‌ای داشته و به مانند یک کرم واقعی، پیوسته به حرکت خود ادامه می‌دهند.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "در کمال تعجب، حلزونِ آلوده خود را به بالای گیاه رسانده و توجه پرندگان را به خود جلب می‌کند، از این رو محتمل‌تر است تا طعمه‌ی پرندگان قرار گیرند.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "به محض آنکه طمعه‌ی پرنده شود، انگل مذکور به سوی بزرگسالی قدم برداشته و دگرگونی‌اش را به اتمام می‌رساند.",
+            paragraphDirection: "right"
           }
         ]
       }
