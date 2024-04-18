@@ -5,13 +5,53 @@
 
   let numberOfFilesTranslated = 0;
 
+  let numberOfWordsTranslated = 0;
+
+  let fileWords;
+  let infoArray = [];
+
   for (let i = 0; i < $gameStore.length; i++) {
     const game = $gameStore[i];
     for (let j = 0; j < game.files.length; j++) {
       const file = game.files[j];
       numberOfFilesTranslated++;
+      fileWords = 0;
+      for (let k = 0; k < file.originalContent.length; k++) {
+        const originalContent = file.originalContent[k];
+        const paragraph = originalContent.paragraph;
+        const wordArray = paragraph.split(' ');
+        numberOfWordsTranslated += wordArray.length;
+        fileWords += wordArray.length;
+      }
+      infoArray.push({gameTitle: game.title, fileTitle: file.title, fileWords});
     }
   }
+  
+  // let fileWords_lowest = Number.POSITIVE_INFINITY;
+  // let fileWords_highest = Number.NEGATIVE_INFINITY;
+  // let info;
+  // let gameTitleInfo_lowest;
+  // let fileTitleInfo_lowest;
+  // let gameTitleInfo_highest;
+  // let fileTitleInfo_highest;
+  // let fileWordsInfo;
+
+  // for (let i = infoArray.length - 1; i >= 0; i--) {
+  //   info = infoArray[i];
+  //   fileWordsInfo = info.fileWords;
+  //   if (fileWordsInfo < fileWords_lowest) {
+  //     fileWords_lowest = fileWordsInfo;
+  //     gameTitleInfo_lowest = info.gameTitle;
+  //     fileTitleInfo_lowest = info.fileTitle;
+  //   }
+  //   if (fileWordsInfo > fileWords_highest) {
+  //     fileWords_highest = fileWordsInfo;
+  //     gameTitleInfo_highest = info.gameTitle;
+  //     fileTitleInfo_highest = info.fileTitle;
+  //   }
+  // }
+  // console.log(fileWords_lowest, gameTitleInfo_lowest, fileTitleInfo_lowest);
+  // console.log(fileWords_highest, gameTitleInfo_highest, fileTitleInfo_highest);
 </script>
 
 <svelte:head>
@@ -20,10 +60,10 @@
 
 <header class="fixed top-0 inset-x-0 bg-black z-10">
   <nav>
-    <ul class="flex items-center flex-nowrap overflow-auto gap-6 px-6 h-16">
+    <ul class="flex items-center flex-nowrap overflow-auto h-16">
       {#each $gameStore as game}
-        <li class="h-full items-center not-last-child:after:content-c not-last-child:after:ml-6 not-last-child:after:text-white flex">
-          <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" title={game.title} href={game.url}>
+        <li class="h-full items-center not-last-child:after:content-c not-last-child:after:text-white flex relative">
+          <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={game.url} title={game.title}>
             {game.shortTitle}
           </a>
         </li>
@@ -81,8 +121,15 @@
         <Log text='Target Practice' action='Translated' game='RE4' date='Apr 9, 2024' />
         <Log text="Luis' Memo" action='Translated' game='RE4' date='Apr 16, 2024' />
         <Log text='"V-JOLT" Report' action='Proofread' game='RE1' date='Apr 16, 2024' />
+        <Log text='Capture Luis Sera' action='Proofread' game='RE4' date='Apr 18, 2024' />
+        <Log text='Two Routes' action='Proofread' game='RE4' date='Apr 18, 2024' />
+        <Log text="Luis' Memo" action='Proofread' game='RE4' date='Apr 18, 2024' />
+        <Log text='Castellan Memo' action='Translated' game='RE4' date='Apr 18, 2024' />
         <li>
           Number of Files Translated => {numberOfFilesTranslated}
+        </li>
+        <li>
+          Number of Words Translated => {numberOfWordsTranslated.toLocaleString()}
         </li>
       </ul>
     </details>

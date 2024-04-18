@@ -5,6 +5,7 @@ const gameStore = writable([
     id: 1,
     shortTitle: 'RE1',
     title: 'Resident Evil 1',
+    releaseDate: '1996',
     url: '/re1/files',
     files:
     [
@@ -1694,6 +1695,7 @@ const gameStore = writable([
     id: 2,
     shortTitle: 'RE2',
     title: 'Resident Evil 2',
+    releaseDate: '1998',
     url: '/re2/files',
     files:
     [
@@ -3707,6 +3709,7 @@ const gameStore = writable([
     id: 3,
     shortTitle: 'RE3N',
     title: 'Resident Evil 3 Nemesis',
+    releaseDate: '1999',
     url: '/re3n/files',
     files:
     [
@@ -5380,6 +5383,7 @@ const gameStore = writable([
     id: 4,
     shortTitle: 'RE4',
     title: 'Resident Evil 4',
+    releaseDate: '2005',
     url: '/re4/files',
     files:
     [
@@ -6039,7 +6043,7 @@ const gameStore = writable([
             paragraphDirection: "right"
           },
           {
-            paragraph: "توی یکی از این دو مسیر، کلی گانادو رو راهی می‌کنیم تا مطمئن شیم اونا از دست ما قسر در نمی‌رن. برای اون یکی مسیر هم، کارو به ال گیگانته می‌سپریم. هر مسیری هم که انتخاب کنن، ماموره، حداقل با دخترک، زنده ازش بیرون نمیاد.",
+            paragraph: "توی یکی از این دو مسیر، کلی «گانادو» رو راهی می‌کنیم تا مطمئن شیم اونا از دست ما قسر در نمی‌رن. برای اون یکی مسیر هم، کارو به «ال گیگانته» می‌سپریم. هر مسیری هم که انتخاب کنن، ماموره، حداقل با دخترک، زنده ازش بیرون نمیاد.",
             paragraphDirection: "right"
           }
         ]
@@ -6169,7 +6173,7 @@ const gameStore = writable([
         ],
         farsiContent: [
           {
-            paragraph: "مدارکی دارم که نشان می‌دهد سرا به قصر ورود پیدا کرده.",
+            paragraph: "مدارکی دارم که نشان می‌دهد سرا به قلعه ورود پیدا کرده.",
             paragraphDirection: "right"
           },
           {
@@ -6478,7 +6482,94 @@ const gameStore = writable([
             paragraphDirection: "right"
           },
           {
-            paragraph: "به محض آنکه طمعه‌ی پرنده شود، انگل مذکور به سوی بزرگسالی قدم برداشته و دگرگونی‌اش را به اتمام می‌رساند.",
+            paragraph: "به محض طعمه‌شدن، انگل مذکور به سوی بزرگسالی قدم برداشته و دگرگونی‌اش را به اتمام می‌رساند.",
+            paragraphDirection: "right"
+          }
+        ]
+      },
+      {
+        id: 13,
+        fileImageUrl: '/img/re4/files/castellan-memo/castellan-memo.png',
+        fileImageSource: 'Evil Resource',
+        fileImageSourceUrl: "https://www.evilresource.com/resident-evil-4/files#!castellan-memo",
+        location: [
+          {
+            text: "Location",
+            locationImageUrl: '/img/re4/files/castellan-memo/location/castellan-memo-location.png',
+            mapImageUrl: {
+              far: '/img/re4/files/castellan-memo/map/castellan-memo-map-far.png',
+              default: '/img/re4/files/castellan-memo/map/castellan-memo-map-default.png',
+              near: '/img/re4/files/castellan-memo/map/castellan-memo-map-near.png'
+            }
+          }
+        ],
+        url: "/castellan-memo",
+        title: "Castellan Memo",
+        originalContent: [
+          {
+            paragraph: "For many years the Salazar family has served as the castellans of this castle. However, not everything is bright, for my ancestry has a dark past.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "Long ago there once was a religious group that had deep roots in this region called the Los Illuminados. Unjustly however, the first castellan of the castle took away their rights and powers.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "As a follower of this religion and as the 8th Castellan, I felt that it was my duty as well as my responsibility to atone for that sin.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "I knew the best way to atone for that sin was to give power back to those who we once took it away from, the Los Illunimados.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "As expected it took a little time, but we were able to rejuvenate the once sealed Las Plagas. With this success I was one step closer to the revival of the Los Illuminados.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "The reason why I released the Las Plagas from deep under the castle and gave them to Lord Saddler was not only to repay for the sins of my ancestors but I felt certain that the Lord would make better use of this power to help save the world.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "To save those that have sinned with the power of the Las Plagas and to cleanse their souls creating a world without sinners. The way it was meant to be. Once cleansed, they would become one of the many Ganados where they will find their reason to live.",
+            paragraphDirection: "left"
+          },
+          {
+            paragraph: "And after the Lord has succeeded in creating the world in which he has envisioned, then the sins of my Salazar family will be atoned for.",
+            paragraphDirection: "left"
+          }
+        ],
+        farsiContent: [
+          {
+            paragraph: "برای سال‌های متمادی، خاندان سالازار حاکمیت این قلعه را بر عهده داشته. در رابطه با گذشته‌ی تاریک اجدادم اما، هیچ چیز روشنی وجود ندارد.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "مدت‌ها پیش نیز، فرقه‌ی مذهبیِ «لوس ایلامینادوس» به این منطقه نفود می‌یابد. به ناحق اما، اولین حاکم این قلعه، تمامی حقوق و اختیارات را از آنان سلب می‌کند.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "به عنوان یک معتقد به این دین و هشتمین حاکم این قلعه، این را وظیفه و مسئولیت خویش می‌دانم تا این گناه را جبران کنم.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "می‌دانستم که بهترین راه برای جبران این اشتباه، بازگرداندن قدرت به کسانی‌ست که پیش از این قدرت‌شان را تصاحب کرده بودیم: «لوس ایلامینادوس».",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "همچنین پی بردم که بازسازی «لاس پلاگاس» که برای مدت‌ها کارش به پایان رسیده، به زمان زیادی لازم ندارد. به واسطه‌ی این موفقیت نیز، یک قدم به بازگردانی «لوس ایلامینادوس» نزدیک‌تر شدم.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "نه برای جبرانِ گناهان اجدادم، که برای احساس قطعیت‌ام نسبت به لرد سدلر، برای استفاده‌ی بهتر از این قدرت در کمک به نجات دنیا، «لاس پلاگاس» را از اعماق این قلعه آزاد ساخته و در اختیارش قرار دادم.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "برای نجات آنان که با «لاس پلاگاس» دست به خطا زدند، و در جهت تطهیر روحشان که به شکل‌گیری دنیایی عاری از گناهکاران دامن زدند. مسیر از ابتدا اینگونه پی‌ریزی شده بود. تطهیرشان نیز آن‌ها را به «گانادوهایی» بدل می‌سازد که دلیلی برای زندگی یافت می‌کنند.",
+            paragraphDirection: "right"
+          },
+          {
+            paragraph: "پس از موفقیت لرد در شکل‌گیری جهان مد نظر اوست که گناهان خاندانم جبران می‌شوند.",
             paragraphDirection: "right"
           }
         ]

@@ -27,12 +27,12 @@
 
 <header class="fixed top-0 inset-x-0 bg-black z-10">
   <nav>
-    <ul class="flex items-center flex-nowrap overflow-auto gap-6 px-6 h-16">
+    <ul class="flex items-center flex-nowrap overflow-auto h-16">
       {#each $gameStore as game}
         {#if game.url == url}
           {#each game.files as file}
-            <li class="h-full items-center not-last-child:after:content-c not-last-child:after:ml-6 not-last-child:after:text-white flex">
-              <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full" href={`${game.url}${file.url}`}>
+            <li class="h-full items-center not-last-child:after:content-c not-last-child:after:text-white flex">
+              <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={`${game.url}${file.url}`}>
                 {file.title}
               </a>
             </li>
