@@ -63,7 +63,7 @@
         {#if game.url == gameUrl}
           {#each game.files as file}
             <li class="h-full items-center not-last-child:after:content-c not-last-child:after:text-white flex">
-              <a class="{(`${game.url}${file.url}` == url) ? 'text-c-yellow font-bold' : 'text-c-blue hover:text-c-yellow'} transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={`${game.url}${file.url}`} on:click={() => reset()}>
+              <a class="{(`${game.url}${file.url}` == url) ? 'text-c-yellow font-bold' : 'text-blue-500 hover:text-c-yellow'} transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={`${game.url}${file.url}`} on:click={() => reset()}>
                 {file.title}
               </a>
             </li>

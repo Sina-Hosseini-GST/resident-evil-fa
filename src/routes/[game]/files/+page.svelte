@@ -32,7 +32,7 @@
         {#if game.url == url}
           {#each game.files as file}
             <li class="h-full items-center not-last-child:after:content-c not-last-child:after:text-white flex">
-              <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={`${game.url}${file.url}`}>
+              <a class="text-blue-500 hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={`${game.url}${file.url}`}>
                 {file.title}
               </a>
             </li>

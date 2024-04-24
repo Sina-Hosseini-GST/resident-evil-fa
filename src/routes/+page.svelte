@@ -63,8 +63,8 @@
     <ul class="flex items-center flex-nowrap overflow-auto h-16">
       {#each $gameStore as game}
         <li class="h-full items-center not-last-child:after:content-c not-last-child:after:text-white flex relative">
-          <a class="text-c-blue hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={game.url} title={game.title}>
-            {game.shortTitle}
+          <a class="text-blue-500 hover:text-c-yellow transition-colors underline whitespace-nowrap flex items-center h-full px-6" href={game.url} title={`${game.title} | ${game.releaseDate}`}>
+            {game.title}
           </a>
         </li>
       {/each}
@@ -77,7 +77,7 @@
 <main class="max-w-c mx-auto">
   <section class="p-4">
     <p class="text-justify text-pink-100">
-      Hi, I'm <a class="underline underline-offset-2 hover:font-bold text-white" href="mailto:sina.hosseini.gst@gmail.com">Sina</a>, and this is my independent project, to translate the whole in-game documents of each <span class="italic">Resident Evil</span> into Persian! Go select your desired title and explore the story!
+      Hi there! I'm <a class="underline underline-offset-2 hover:font-bold text-white" href="mailto:sina.hosseini.gst@gmail.com">Sina</a>, and this is my independent project that provides the document translations of <span class="italic">my favourite video games</span>, into Persian! Go select your desired title and explore the story!
     </p>
     <div class="my-8">
       <img class="w-2/5 min-w-c-2 mx-auto" src="./img/logo/logo.png" alt="Logo">
@@ -125,6 +125,7 @@
         <Log text='Two Routes' action='Proofread' game='RE4' date='Apr 18, 2024' />
         <Log text="Luis' Memo" action='Proofread' game='RE4' date='Apr 18, 2024' />
         <Log text='Castellan Memo' action='Translated' game='RE4' date='Apr 18, 2024' />
+        <Log text='Female Intruder' action='Translated' game='RE4' date='Apr 24, 2024' />
         <li>
           Number of Files Translated => {numberOfFilesTranslated}
         </li>

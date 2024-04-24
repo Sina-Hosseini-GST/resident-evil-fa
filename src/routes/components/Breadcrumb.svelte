@@ -11,8 +11,8 @@
     <Arrow />
     <span>
       {#if game}
-        <span class="text-c-red">
-          {game.shortTitle}
+        <span class="text-c-red whitespace-nowrap">
+          {game.title}
         </span>
         {:else}
           <i class="text-c-green whitespace-nowrap first-letter:font-bold underline underline-offset-4 decoration-dashed">
