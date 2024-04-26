@@ -8,7 +8,7 @@
   $: gameUrl = url.substring(url.indexOf('/'), url.lastIndexOf('/'));
   
   let mapViewIndex;
-  let mapViewArray;
+  let mapViewArray = [];
 
   const showMapView = (index) => {
     mapViewIndex = index;
@@ -34,7 +34,6 @@
 
   onMount(() => {
     mapViewIndex = 1;
-    mapViewArray = document.getElementsByClassName('map-view');
     if (mapViewArray.length) {
       showMapView(mapViewIndex);
     }
@@ -119,9 +118,9 @@
                         <button class="absolute left-0 inset-y-0 w-10 transition-opacity hover:opacity-60" on:click={() => changeMapView(- 1)}>
                           <svg class="w-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" color="#ffffff" viewBox="7 4 9 16"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                         </button>
-                        <img src={location.mapImageUrl.far} alt={`${file.title} far-view location on the map`} class="text-white text-center w-full hidden map-view">
-                        <img src={location.mapImageUrl.default} alt={`${file.title} location on the map`} class="text-white text-center w-full map-view">
-                        <img src={location.mapImageUrl.near} alt={`${file.title} near-view location on the map`} class="text-white text-center w-full hidden map-view">
+                        <img src={location.mapImageUrl.far} alt={`${file.title} far-view location on the map`} class="text-white text-center w-full hidden map-view" bind:this={mapViewArray[0]}>
+                        <img src={location.mapImageUrl.default} alt={`${file.title} location on the map`} class="text-white text-center w-full map-view" bind:this={mapViewArray[1]}>
+                        <img src={location.mapImageUrl.near} alt={`${file.title} near-view location on the map`} class="text-white text-center w-full hidden map-view" bind:this={mapViewArray[2]}>
                         <button class="absolute right-0 inset-y-0 w-10 transition-opacity hover:opacity-60" on:click={() => changeMapView(+ 1)}>
                           <svg class="w-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" color="#ffffff" viewBox="8 4 9 16"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </button>
