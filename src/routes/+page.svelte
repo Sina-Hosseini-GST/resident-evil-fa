@@ -36,7 +36,7 @@
 				Games
 			</a>
 		</ul>
-		<a class="absolute items-center hidden gap-2 p-2 border border-white rounded right-2 inset-y-2 xs:flex" href="/someGit" target="_blank">
+		<a class="absolute items-center hidden gap-2 p-2 border border-white rounded right-2 inset-y-2 xs:flex" href="https://github.com/Sina-Hosseini-GST/resident-evil-fa/tree/sv5" target="_blank">
 			<span class="text-sm xl:text-base whitespace-nowrap">
 				Rate This Repo on GitHub
 			</span>
