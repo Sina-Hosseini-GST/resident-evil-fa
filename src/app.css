@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'calibri';
+  src: url('./lib/assets/fonts/calibri.ttf');
+}
+
+@font-face {
+  font-family: 'b-mitra';
+  src: url('./lib/assets/fonts/b-mitra.ttf');
+}
+
+@tailwind utilities;
+
+[type="search"]::-webkit-search-cancel-button {
+  @apply appearance-none [-webkit-appearance:none] xl:size-6 bg-[url('https://s2.svgbox.net/materialui.svg?ic=close')] cursor-pointer;
+}
