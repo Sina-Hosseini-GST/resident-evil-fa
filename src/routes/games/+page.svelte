@@ -1,6 +1,6 @@
 <script>
   import gameStore from '../../stores/gameStore'
-  import HorizontalItems from '$lib/components/HorizontalItems.svelte'
+  import VerticalItems from '$lib/components/VerticalItems.svelte'
   import { fade } from 'svelte/transition'
 </script>
 
@@ -15,4 +15,4 @@
   </div>
 </div>
 
-<HorizontalItems items={$gameStore} searchedItems={$gameStore} type='game' />
+<VerticalItems items={$gameStore} searchedItems={$gameStore} type='game' />

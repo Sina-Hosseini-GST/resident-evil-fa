@@ -68,7 +68,7 @@
 </script>
 
 <div class="border border-gray-500 sticky xl:top-[calc(3.5rem+1.75rem+1px)] lg:top-[calc(3rem+1.5rem+1px)] md:top-[calc(3rem+1.25rem+1px)] xl:h-[calc(100svh-calc(7rem+1px))] lg:h-[calc(100svh-calc(6rem+1px))] md:h-[calc(100svh-calc(5.5rem+1px))] md:flex hidden flex-col xl:text-base text-sm xl:w-64 lg:w-56 md:w-40" in:fade={{ duration: 300 }}>
-  <input type="search" class="text-black bg-gray-200 placeholder:text-gray-700 xl:h-10 lg:h-9 md:h-8 xl:px-3.5 lg:px-3 md:px-2.5 w-full focus:outline-none" placeholder="Search..." bind:value={value}>
+  <input type="search" class="relative w-full text-black bg-gray-200 placeholder:text-gray-700 xl:h-10 lg:h-9 md:h-8 xl:pl-4 lg:pl-3 md:pl-2 xl:pr-[3.25rem] lg:pr-[2.625rem] md:pr-8 focus:outline-none" placeholder="Search..." bind:value={value}>
   <div class="flex-1 overflow-hidden text-xs embla xl:text-sm bg-stone-900" use:emblaCarouselSvelte={{ options }} onemblaInit={onInit}>
     <div class="flex flex-col h-full embla__container">
       {#if value}

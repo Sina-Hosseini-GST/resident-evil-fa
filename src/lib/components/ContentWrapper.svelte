@@ -3,6 +3,6 @@
   let { children, additionalClasses } = $props()
 </script>
 
-<div class="flex flex-col xl:gap-8 lg:gap-6 md:gap-3 gap-6 {additionalClasses}" in:fade={{ duration: 300 }}>
+<div class="flex flex-col xl:gap-8 lg:gap-6 md:gap-4 gap-6 {additionalClasses}" in:fade={{ duration: 300 }}>
   {@render children()}
 </div>

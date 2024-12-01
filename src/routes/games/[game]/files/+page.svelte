@@ -1,6 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
-  import HorizontalCarousel from '$lib/components/HorizontalItems.svelte'
+  import VerticalItems from '$lib/components/VerticalItems.svelte'
   import gameStore from '../../../../stores/gameStore'
   import { page } from '$app/stores'
 
@@ -15,4 +15,4 @@
   Select a file!
 </div>
 
-<HorizontalCarousel items={files} searchedItems={searchedFiles} type='file' />
+<VerticalItems items={files} searchedItems={searchedFiles} type='file' />
