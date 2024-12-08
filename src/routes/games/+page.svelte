@@ -10,7 +10,7 @@
       Select a game
     </div>
     <div>
-      to display its files!
+      to display its documents!
     </div>
   </div>
 </div>
