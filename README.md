@@ -1,5 +1,5 @@
 # _REdocs_
-![screencapture-re-docs-github-io-2023-11-30-18_42_37](https://github.com/Sina-Hosseini-GST/resident-evil-fa/assets/61265518/e195beae-f61c-43fe-a063-91794de01630)
+![image](https://github.com/user-attachments/assets/5fbced09-e6b3-4449-a513-2364542b901a)
 **Development** => Work of mine  
 **Design** => Work of mine  
 **Technologies used** => HTML, CSS -> {Tailwind CSS}, JS -> {Svelte 5 => SvelteKit}, Embla  
